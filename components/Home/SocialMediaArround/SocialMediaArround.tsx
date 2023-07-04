@@ -2,9 +2,7 @@ import React from "react";
 import { motion } from "../../../node_modules/framer-motion/dist/framer-motion";
 import GithubIcon from "../../Icons/GithubIcon";
 import LinkedinIcon from "../../Icons/LinkedinIcon";
-import InstagramIcon from "../../Icons/InstagramIcon";
 import DiscordIcon from "../../Icons/DiscordIcon";
-import TelegramIcon from "../../Icons/TelegramIcon";
 const IconClickableWithAnimation = (props) => {
   return (
     <motion.div
@@ -47,14 +45,10 @@ export default function SocialMediaEmail(props: { finishedLoading: boolean }) {
             />
             {/* Linkedin icon */}
             <IconClickableWithAnimation Icon={LinkedinIcon} href={"https://www.linkedin.com/in/lendon-bracewell-558563266/"} />
-            {/* Instagram Icon */}
-            <IconClickableWithAnimation Icon={InstagramIcon} href={""} />
-            {/* Youtube Icon */}
             <IconClickableWithAnimation
               Icon={DiscordIcon}
               href={"https://discord.com/invite/superdev1114"}
             />
-            <IconClickableWithAnimation Icon={TelegramIcon} href={""} />
           </div>
           <div className="h-32 w-0.5 bg-gray-400"></div>
         </div>

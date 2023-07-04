@@ -234,7 +234,7 @@ export default function SomethingIveBuilt() {
                 ></div>
               </Link>
               <Img
-                src={"/img/poker.png"}
+                src={"/img/hirenest.png"}
                 alt={"Project Screen shot"}
                 className={`w-full rounded h-full `}
               />
@@ -249,7 +249,7 @@ export default function SomethingIveBuilt() {
                 <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
                 <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
                 <Img
-                  src={"/img/poker.png"}
+                  src={"/img/hirenest.png"}
                   alt={"Project Screen shot"}
                   className={`w-full h-full`}
                 />

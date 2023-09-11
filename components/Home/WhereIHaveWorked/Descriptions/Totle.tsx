@@ -13,10 +13,6 @@ export default function Totle() {
       keywords: ["Next.js/React", "AWS", "Vercel"],
     },
     {
-      text: "Developed decentralized token with Solidity, Web3 and Front-End based on React , Typescript",
-      keywords: [],
-    },
-    {
       text: "Introduced COMP token",
       keywords: [],
     },

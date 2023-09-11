@@ -4,6 +4,7 @@ import ArrowIcon from "../../../components/Icons/ArrowIcon";
 export default function AboutMe(props) {
   const technologies = [
     [
+      "Solidity",
       "Next.js",
       "Ether.js",
       "Express",
@@ -15,6 +16,7 @@ export default function AboutMe(props) {
       "Rust",
     ],
     [
+      "Rust",
       "React",
       "web3.js",
       "Node.js",
@@ -76,7 +78,7 @@ export default function AboutMe(props) {
                 provide excellent{" "}
                 <span className="text-AAsecondary">programming skills,</span>{" "}
                 effective{" "}
-                <span className="text-AAsecondary">communication skills</span>{" "}
+                <span className="text-AAsecondary">scommunication skills</span>{" "}
                 and high quality product.
               </span>
               <br className="md:block hidden" />

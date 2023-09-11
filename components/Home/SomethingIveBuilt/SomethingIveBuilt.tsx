@@ -112,7 +112,7 @@ export default function SomethingIveBuilt() {
                 <span className="pr-4 z-10">✔English</span>
               </ul>
               <div className="z-10 flex fle-row space-x-5 ">
-                <GithubIcon link="https://github.com/super1114/Taxi-betting-game-frontendfbdfd" />
+                <GithubIcon link="https://github.com/topsecretagent008/Taxi-betting-game-frontendfbdfd" />
                 <a
                   href=""
                   target={"_blank"}
@@ -203,7 +203,7 @@ export default function SomethingIveBuilt() {
                 <span className="pr-4 z-10">TypeScript</span>
               </ul>
               <div className="z-10 flex fle-row space-x-5 ">
-                <GithubIcon link="https://github.com/super1114/Red-devil-FE-next-tailwind-" />
+                <GithubIcon link="https://github.com/topsecretagent008/Red-devil-FE-next-tailwind-" />
                 <a
                   href=""
                   target={"_blank"}
@@ -227,14 +227,14 @@ export default function SomethingIveBuilt() {
           absolute md:grid grid-cols-12 w-full h-full  content-center "
           >
             <div className="relative rounded w-full h-full col-start-6 col-span-7 ">
-              <Link href={"https://hirenest.com/"}>
+              <Link href={"https://unjabbed.vercel.app/"}>
                 <div
                   className="absolute w-full h-full rounded bg-AAsecondary 
            transition-opacity opacity-20 hover:opacity-0 hover:cursor-pointer duration-300"
                 ></div>
               </Link>
               <Img
-                src={"/img/hirenest.png"}
+                src={"/img/Unjabbed.png"}
                 alt={"Project Screen shot"}
                 className={`w-full rounded h-full `}
               />
@@ -248,7 +248,7 @@ export default function SomethingIveBuilt() {
                 <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
                 <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
                 <Img
-                  src={"/img/hirenest.png"}
+                  src={"/img/Unjabbed.png"}
                   alt={"Project Screen shot"}
                   className={`w-full h-full`}
                 />
@@ -263,16 +263,17 @@ export default function SomethingIveBuilt() {
                 <span className="text-AAsecondary text-base">
                   Recent Project
                 </span>
-                <Link href={"https://hirenest.com/"}>
+                <Link href={"https://unjabbed.vercel.app/"}>
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
-                    Hirenest
+                    Unjabbed
                   </span>
                 </Link>
               </div>
               <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
                 <p className="text-gray-300 md:text-gray-400 text-left ">
-                  Hirenest is                   <span className="text-AAsecondary"> Saas </span>
-                  platform in HRTech domain. It allows automating the hiring process which saves recruiters time on spending hours qualifying candidates.
+                  Unjabbed is <span className="text-AAsecondary"> Dating site </span>.
+                  <br />
+                  At Unjabbed, our mission is to create a safe, inclusive, and supportive space for unvaccinated individuals seeking meaningful connections.
                 </p>
               </div>
               <ul
@@ -283,16 +284,16 @@ export default function SomethingIveBuilt() {
                 <span className="pr-4 z-10">Next.js</span>
                 <span className="pr-4 z-10">Tailwind CSS</span>
                 <span className="pr-4 z-10">JavaScript</span>
-                <span className="pr-4 z-10">TypeScript</span>
+                <span className="pr-4 z-10">Firebase</span>
               </ul>
               <div className="z-10 flex fle-row space-x-5 ">
-                <GithubIcon link="https://github.com/super1114/bonspocker-new-frontend" />
+                <GithubIcon link="https://github.com/topsecretagent008/Dating-ui" />
                 <a
                   href=""
                   target={"_blank"}
                   rel="noreferrer"
                 >
-                  <ExternalLink url={"https://hirenest.com/"} router={router} />
+                  <ExternalLink url={"https://unjabbed.vercel.app/"} router={router} />
                 </a>
               </div>
             </div>
@@ -311,7 +312,7 @@ export default function SomethingIveBuilt() {
           >
             <div className="relative rounded w-full h-full col-span-7 ">
               <a
-                href="https://pamweinstock.com/"
+                href="https://0xwlf.io/"
                 target={"_blank"}
                 rel="noreferrer"
               >
@@ -322,7 +323,7 @@ export default function SomethingIveBuilt() {
                 ></div>
               </a>
               <Img
-                src={"/img/Pam.png"}
+                src={"/img/WLF.png"}
                 alt={"Project Screen shot"}
                 className={`w-full rounded h-full `}
               />
@@ -337,7 +338,7 @@ export default function SomethingIveBuilt() {
                 <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
                 <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
                 <Img
-                  src={"/img/Pam.png"}
+                  src={"/img/WLF.png"}
                   alt={"Project Screen shot"}
                   className={`w-full h-full `}
                 />
@@ -353,7 +354,7 @@ export default function SomethingIveBuilt() {
                   Recent Project
                 </span>
                 <a
-                  href="https://pamweinstock.com/"
+                  href="https://0xwlf.io/"
                   target={"_blank"}
                   rel="noreferrer"
                 >
@@ -364,29 +365,28 @@ export default function SomethingIveBuilt() {
               </div>
               <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
                 <p className="text-gray-300 md:text-gray-400 text-left md:text-right">
-                  Developed  <span className="text-AAsecondary"> Frontend, Backend, including </span>
-                  the design.While creating the site, I learned a little bit about
-                  <span className="text-AAsecondary"> Shopify.</span> And I created an extensible site.
+                  <span className="text-AAsecondary">Woman Lif3 Fr33dom</span> is an <span className="text-AAsecondary">NFT</span> mint site to help Iranian women fight for freedom.
+                  I performed the <span className="text-AAsecondary">front-end</span> part here.
                 </p>
               </div>
               <ul
                 className="flex flex-wrap w-full text-gray-300 md:text-gray-400
                text-sm font-Text2 md:justify-end"
               >
-                <span className="pr-4 z-10">React.js</span>
-                <span className="pr-4 z-10">Next.js</span>
-                <span className="pr-4 z-10">Node.js</span>
-                <span className="pr-4 z-10">Shopify</span>
+                <span className="pr-4 z-10">React</span>
+                <span className="pr-4 z-10">JavaScript</span>
+                <span className="pr-4 z-10">Web3</span>
+                <span className="pr-4 z-10">Smart Contract</span>
                 <span className="pr-4 z-10">Tailwind CSS</span>
               </ul>
               <div className="z-10 flex fle-row space-x-5 sm:pt-0 pt-2">
-                <GithubIcon link="https://github.com/super1114/VantaSite-Next-Tailwind" />
+                <GithubIcon link="https://github.com/topsecretagent008/NFT-mint" />
                 <a
                   href=""
                   target={"_blank"}
                   rel="noreferrer"
                 >
-                  <ExternalLink url={"https://pamweinstock.com/"} router={router} />
+                  <ExternalLink url={"https://0xwlf.io/"} router={router} />
                 </a>
               </div>
             </div>

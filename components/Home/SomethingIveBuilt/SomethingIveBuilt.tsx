@@ -359,7 +359,7 @@ export default function SomethingIveBuilt() {
                   rel="noreferrer"
                 >
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
-                    Pam Weinstock
+                    Woman Lif3 Fr33dom
                   </span>
                 </a>
               </div>

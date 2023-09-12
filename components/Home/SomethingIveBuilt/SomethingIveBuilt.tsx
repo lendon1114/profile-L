@@ -97,7 +97,7 @@ export default function SomethingIveBuilt() {
                   <span className="text-AAsecondary"> smart contract.</span>
                   No human involvement in the administration of
                   <span className="text-AAsecondary"> Ethereum.</span>
-                  The value is directly related to how many tokens there are at any given time..
+                  The value is directly related to how many tokens there are at any given time.
                 </p>
               </div>
               <ul

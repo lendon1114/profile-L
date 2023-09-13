@@ -392,6 +392,539 @@ export default function SomethingIveBuilt() {
             </div>
           </div>
         </div>
+
+        {/* // ?  Project 5 */}
+        <div
+          data-aos="fade-up"
+          className="relative md:grid md:grid-cols-12 w-full md:h-96  "
+        >
+          {/* Left image */}
+          <div
+            className="hidden bg-AAprimary z-10  py-4 
+          absolute md:grid grid-cols-12 w-full h-full  content-center "
+          >
+            <div className="relative rounded w-full h-full col-start-6 col-span-7 ">
+              <Link href={"https://www.difiaba.com/"}>
+                <div
+                  className="absolute w-full h-full rounded bg-AAsecondary 
+           transition-opacity opacity-20 hover:opacity-0 hover:cursor-pointer duration-300"
+                ></div>
+              </Link>
+              <Img
+                src={"/img/Difiaba.png"}
+                alt={"Project Screen shot"}
+                className={`w-full rounded h-full `}
+              />
+            </div>
+          </div>
+
+          {/* right Content */}
+          <div className=" md:absolute py-4  md:grid md:grid-cols-12 w-full h-full  content-center ">
+            <div className="absolute w-full h-full bg-opacity-70 z-0 md:order-2">
+              <div className="relative w-full h-full">
+                <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
+                <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
+                <Img
+                  src={"/img/Difiaba.png"}
+                  alt={"Project Screen shot"}
+                  className={`w-full h-full`}
+                />
+              </div>
+            </div>
+
+            <div
+              className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-6   
+            col-span-8 flex flex-col items-start  space-y-3 md:order-1"
+            >
+              <div className="flex flex-col space-y-1  z-10">
+                <span className="text-AAsecondary text-base">
+                  Recent Project
+                </span>
+                <Link href={"https://www.difiaba.com/"}>
+                  <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
+                    Difiaba
+                  </span>
+                </Link>
+              </div>
+              <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
+                <p className="text-gray-300 md:text-gray-400 text-left ">
+                  Inspired by the timeless beauty of<span className="text-AAsecondary"> Italy</span>, we combine our passion for the art of hairstyling with cutting-edge technology to create products loved by professionals.
+                  <br />
+                  I made this with <span className="text-AAsecondary"> WordPress </span>.
+                </p>
+              </div>
+              <ul
+                className="flex flex-wrap w-full text-gray-300 md:text-gray-400
+               text-sm font-Text2 md:justify-start"
+              >
+                <span className="pr-4 z-10">WordPress</span>
+                <span className="pr-4 z-10">PHP</span>
+                <span className="pr-4 z-10">Tailwind CSS</span>
+                <span className="pr-4 z-10">MongoDB</span>
+                <span className="pr-4 z-10">MySQL</span>
+              </ul>
+              <div className="z-10 flex fle-row space-x-5 ">
+                <GithubIcon link="https://github.com/topsecretagent008/difiaba" />
+                <a
+                  href=""
+                  target={"_blank"}
+                  rel="noreferrer"
+                >
+                  <ExternalLink url={"https://www.difiaba.com/"} router={router} />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* // ? Project 6 */}
+        <div
+          data-aos="fade-up"
+          className="relative md:grid md:grid-cols-12 w-full md:h-96"
+        >
+          {/* Left image */}
+          <div
+            className="hidden bg-AAprimary z-10  py-4 
+          absolute md:grid grid-cols-12 w-full h-full  content-center"
+          >
+            <div className="relative rounded w-full h-full col-span-7 ">
+              <a
+                href="https://forevervoices.com/"
+                target={"_blank"}
+                rel="noreferrer"
+              >
+                <div
+                  // onClick={}
+                  className="absolute w-full h-full rounded bg-AAprimary 
+           transition-opacity opacity-50 hover:opacity-0 hover:cursor-pointer duration-300"
+                ></div>
+              </a>
+              <Img
+                src={"/img/Forever voice.png"}
+                alt={"Project Screen shot"}
+                className={`w-full rounded h-full `}
+              />
+            </div>
+          </div>
+
+          {/* right Content */}
+          <div className=" md:absolute py-4  md:grid md:grid-cols-12 w-full h-full  content-center ">
+            {/* background for text in mobile responsive */}
+            <div className="absolute w-full h-full bg-opacity-70 z-0">
+              <div className="relative w-full h-full">
+                <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
+                <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
+                <Img
+                  src={"/img/Forever voice.png"}
+                  alt={"Project Screen shot"}
+                  className={`w-full h-full `}
+                />
+              </div>
+            </div>
+
+            <div
+              className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-6 xl:col-start-7 col-start-5 
+            col-span-8 flex flex-col items-start md:items-end sm:space-y-3 space-y-1"
+            >
+              <div className="flex flex-col space-y-1 md:items-end z-10">
+                <span className="text-AAsecondary text-base">
+                  Recent Project
+                </span>
+                <a
+                  href="https://forevervoices.com/"
+                  target={"_blank"}
+                  rel="noreferrer"
+                >
+                  <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
+                    Forever Voices
+                  </span>
+                </a>
+              </div>
+              <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
+                <p className="text-gray-300 md:text-gray-400 text-left md:text-right">
+                  <span className="text-AAsecondary">Crafting infinity,</span>
+                  one voice at a time.
+                  <br />
+                  This is a project that converts voices using <span className="text-AAsecondary">AI</span>.
+                  <br />
+                  I made this with <span className="text-AAsecondary">Python</span> and <span className="text-AAsecondary">API</span>.
+                </p>
+              </div>
+              <ul
+                className="flex flex-wrap w-full text-gray-300 md:text-gray-400
+               text-sm font-Text2 md:justify-end"
+              >
+                <span className="pr-4 z-10">Python</span>
+                <span className="pr-4 z-10">AI</span>
+                <span className="pr-4 z-10">API</span>
+                <span className="pr-4 z-10">React.js</span>
+                <span className="pr-4 z-10">Tailwind CSS</span>
+              </ul>
+              <div className="z-10 flex fle-row space-x-5 sm:pt-0 pt-2">
+                <GithubIcon link="https://github.com/topsecretagent008/forevervoices" />
+                <a
+                  href=""
+                  target={"_blank"}
+                  rel="noreferrer"
+                >
+                  <ExternalLink url={"https://forevervoices.com/"} router={router} />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* // ?  Project 7 */}
+        <div
+          data-aos="fade-up"
+          className="relative md:grid md:grid-cols-12 w-full md:h-96  "
+        >
+          {/* Left image */}
+          <div
+            className="hidden bg-AAprimary z-10  py-4 
+          absolute md:grid grid-cols-12 w-full h-full  content-center "
+          >
+            <div className="relative rounded w-full h-full col-start-6 col-span-7 ">
+              <Link href={"https://www.ubervfx.com/"}>
+                <div
+                  className="absolute w-full h-full rounded bg-AAsecondary 
+           transition-opacity opacity-20 hover:opacity-0 hover:cursor-pointer duration-300"
+                ></div>
+              </Link>
+              <Img
+                src={"/img/Uber VFX.png"}
+                alt={"Project Screen shot"}
+                className={`w-full rounded h-full `}
+              />
+            </div>
+          </div>
+
+          {/* right Content */}
+          <div className=" md:absolute py-4  md:grid md:grid-cols-12 w-full h-full  content-center ">
+            <div className="absolute w-full h-full bg-opacity-70 z-0 md:order-2">
+              <div className="relative w-full h-full">
+                <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
+                <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
+                <Img
+                  src={"/img/Uber VFX.png"}
+                  alt={"Project Screen shot"}
+                  className={`w-full h-full`}
+                />
+              </div>
+            </div>
+
+            <div
+              className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-6   
+            col-span-8 flex flex-col items-start  space-y-3 md:order-1"
+            >
+              <div className="flex flex-col space-y-1  z-10">
+                <span className="text-AAsecondary text-base">
+                  Recent Project
+                </span>
+                <Link href={"https://www.ubervfx.com/"}>
+                  <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
+                    Uber VFX
+                  </span>
+                </Link>
+              </div>
+              <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
+                <p className="text-gray-300 md:text-gray-400 text-left ">
+                  This is a video and voice call project created using <span className="text-AAsecondary">React</span>.
+                  <br />
+                  It is currently being used online.
+                </p>
+              </div>
+              <ul
+                className="flex flex-wrap w-full text-gray-300 md:text-gray-400
+               text-sm font-Text2 md:justify-start"
+              >
+                <span className="pr-4 z-10">React.ja</span>
+                <span className="pr-4 z-10">Tailwind CSS</span>
+                <span className="pr-4 z-10">Node.js</span>
+                <span className="pr-4 z-10">API</span>
+              </ul>
+              <div className="z-10 flex fle-row space-x-5 ">
+                <GithubIcon link="https://github.com/topsecretagent008/ubervfx" />
+                <a
+                  href=""
+                  target={"_blank"}
+                  rel="noreferrer"
+                >
+                  <ExternalLink url={"https://www.ubervfx.com/"} router={router} />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* // ? Project 8 */}
+        <div
+          data-aos="fade-up"
+          className="relative md:grid md:grid-cols-12 w-full md:h-96"
+        >
+          {/* Left image */}
+          <div
+            className="hidden bg-AAprimary z-10  py-4 
+          absolute md:grid grid-cols-12 w-full h-full  content-center"
+          >
+            <div className="relative rounded w-full h-full col-span-7 ">
+              <a
+                href="https://meetevoko.com/products/workplace-app/"
+                target={"_blank"}
+                rel="noreferrer"
+              >
+                <div
+                  // onClick={}
+                  className="absolute w-full h-full rounded bg-AAprimary 
+           transition-opacity opacity-50 hover:opacity-0 hover:cursor-pointer duration-300"
+                ></div>
+              </a>
+              <Img
+                src={"/img/Workplace app.png"}
+                alt={"Project Screen shot"}
+                className={`w-full rounded h-full `}
+              />
+            </div>
+          </div>
+
+          {/* right Content */}
+          <div className=" md:absolute py-4  md:grid md:grid-cols-12 w-full h-full  content-center ">
+            {/* background for text in mobile responsive */}
+            <div className="absolute w-full h-full bg-opacity-70 z-0">
+              <div className="relative w-full h-full">
+                <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
+                <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
+                <Img
+                  src={"/img/Workplace app.png"}
+                  alt={"Project Screen shot"}
+                  className={`w-full h-full `}
+                />
+              </div>
+            </div>
+
+            <div
+              className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-6 xl:col-start-7 col-start-5 
+            col-span-8 flex flex-col items-start md:items-end sm:space-y-3 space-y-1"
+            >
+              <div className="flex flex-col space-y-1 md:items-end z-10">
+                <span className="text-AAsecondary text-base">
+                  Recent Project
+                </span>
+                <a
+                  href="https://meetevoko.com/products/workplace-app/"
+                  target={"_blank"}
+                  rel="noreferrer"
+                >
+                  <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
+                    Workplace app
+                  </span>
+                </a>
+              </div>
+              <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
+                <p className="text-gray-300 md:text-gray-400 text-left md:text-right">
+                  <span className="text-AAsecondary">Workplace </span> is an online collaborative software tool developed by Meta Platforms.
+                  <br />
+                  It facilitates online <span className="text-AAsecondary"> groupwork, instant messaging, video conferencing, and news sharing</span>.
+                  <br />
+                  I worked with the <span className="text-AAsecondary"> Meta team </span>when creating this project.
+                </p>
+              </div>
+              <ul
+                className="flex flex-wrap w-full text-gray-300 md:text-gray-400
+               text-sm font-Text2 md:justify-end"
+              >
+                <span className="pr-4 z-10">React Native</span>
+                <span className="pr-4 z-10">API</span>
+                <span className="pr-4 z-10">Flutter </span>
+                <span className="pr-4 z-10">Tailwind CSS</span>
+              </ul>
+              <div className="z-10 flex fle-row space-x-5 sm:pt-0 pt-2">
+                <GithubIcon link="https://github.com/topsecretagent008/workplace-app" />
+                <a
+                  href=""
+                  target={"_blank"}
+                  rel="noreferrer"
+                >
+                  <ExternalLink url={"https://meetevoko.com/products/workplace-app/"} router={router} />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* // ?  Project 9 */}
+        <div
+          data-aos="fade-up"
+          className="relative md:grid md:grid-cols-12 w-full md:h-96  "
+        >
+          {/* Left image */}
+          <div
+            className="hidden bg-AAprimary z-10  py-4 
+          absolute md:grid grid-cols-12 w-full h-full  content-center "
+          >
+            <div className="relative rounded w-full h-full col-start-6 col-span-7 ">
+              <Link href={"https://wineeventsgreece.com/"}>
+                <div
+                  className="absolute w-full h-full rounded bg-AAsecondary 
+           transition-opacity opacity-20 hover:opacity-0 hover:cursor-pointer duration-300"
+                ></div>
+              </Link>
+              <Img
+                src={"/img/WineEvents.png"}
+                alt={"Project Screen shot"}
+                className={`w-full rounded h-full `}
+              />
+            </div>
+          </div>
+
+          {/* right Content */}
+          <div className=" md:absolute py-4  md:grid md:grid-cols-12 w-full h-full  content-center ">
+            <div className="absolute w-full h-full bg-opacity-70 z-0 md:order-2">
+              <div className="relative w-full h-full">
+                <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
+                <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
+                <Img
+                  src={"/img/WineEvents.png"}
+                  alt={"Project Screen shot"}
+                  className={`w-full h-full`}
+                />
+              </div>
+            </div>
+
+            <div
+              className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-6   
+            col-span-8 flex flex-col items-start  space-y-3 md:order-1"
+            >
+              <div className="flex flex-col space-y-1  z-10">
+                <span className="text-AAsecondary text-base">
+                  Recent Project
+                </span>
+                <Link href={"https://wineeventsgreece.com/"}>
+                  <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
+                    WineEvents
+                  </span>
+                </Link>
+              </div>
+              <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
+                <p className="text-gray-300 md:text-gray-400 text-left ">
+                  This is a site for selling and advertising <span className="text-AAsecondary"> wine </span>.
+                  I did the basic <span className="text-AAsecondary"> front-end </span> part here.
+                </p>
+              </div>
+              <ul
+                className="flex flex-wrap w-full text-gray-300 md:text-gray-400
+               text-sm font-Text2 md:justify-start"
+              >
+                <span className="pr-4 z-10">WordPress</span>
+                <span className="pr-4 z-10">PHP</span>
+                <span className="pr-4 z-10">Tailwind CSS</span>
+                <span className="pr-4 z-10">JavaScript</span>
+              </ul>
+              <div className="z-10 flex fle-row space-x-5 ">
+                <GithubIcon link="https://github.com/topsecretagent008/difiaba" />
+                <a
+                  href=""
+                  target={"_blank"}
+                  rel="noreferrer"
+                >
+                  <ExternalLink url={"https://wineeventsgreece.com/"} router={router} />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* // ? Project 10 */}
+        <div
+          data-aos="fade-up"
+          className="relative md:grid md:grid-cols-12 w-full md:h-96"
+        >
+          {/* Left image */}
+          <div
+            className="hidden bg-AAprimary z-10  py-4 
+          absolute md:grid grid-cols-12 w-full h-full  content-center"
+          >
+            <div className="relative rounded w-full h-full col-span-7 ">
+              <a
+                href="https://www.greubelforsey.com/en"
+                target={"_blank"}
+                rel="noreferrer"
+              >
+                <div
+                  // onClick={}
+                  className="absolute w-full h-full rounded bg-AAprimary 
+           transition-opacity opacity-50 hover:opacity-0 hover:cursor-pointer duration-300"
+                ></div>
+              </a>
+              <Img
+                src={"/img/greubelforsey.png"}
+                alt={"Project Screen shot"}
+                className={`w-full rounded h-full `}
+              />
+            </div>
+          </div>
+
+          {/* right Content */}
+          <div className=" md:absolute py-4  md:grid md:grid-cols-12 w-full h-full  content-center ">
+            {/* background for text in mobile responsive */}
+            <div className="absolute w-full h-full bg-opacity-70 z-0">
+              <div className="relative w-full h-full">
+                <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
+                <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
+                <Img
+                  src={"/img/greubelforsey.png"}
+                  alt={"Project Screen shot"}
+                  className={`w-full h-full `}
+                />
+              </div>
+            </div>
+
+            <div
+              className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-6 xl:col-start-7 col-start-5 
+            col-span-8 flex flex-col items-start md:items-end sm:space-y-3 space-y-1"
+            >
+              <div className="flex flex-col space-y-1 md:items-end z-10">
+                <span className="text-AAsecondary text-base">
+                  Recent Project
+                </span>
+                <a
+                  href="https://www.greubelforsey.com/en"
+                  target={"_blank"}
+                  rel="noreferrer"
+                >
+                  <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
+                    Greubel Forsey
+                  </span>
+                </a>
+              </div>
+              <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
+                <p className="text-gray-300 md:text-gray-400 text-left md:text-right">
+                  This is an advertising and sales site created to sell <span className="text-AAsecondary">watches</span>.
+                  I focused on basic <span className="text-AAsecondary"> Front-end </span> work here.
+                </p>
+              </div>
+              <ul
+                className="flex flex-wrap w-full text-gray-300 md:text-gray-400
+               text-sm font-Text2 md:justify-end"
+              >
+                <span className="pr-4 z-10">React.js</span>
+                <span className="pr-4 z-10">Node.js</span>
+                <span className="pr-4 z-10">Typescript</span>
+                <span className="pr-4 z-10">Tailwind CSS</span>
+              </ul>
+              <div className="z-10 flex fle-row space-x-5 sm:pt-0 pt-2">
+                <GithubIcon link="https://github.com/topsecretagent008/greubelforsey" />
+                <a
+                  href=""
+                  target={"_blank"}
+                  rel="noreferrer"
+                >
+                  <ExternalLink url={"https://www.greubelforsey.com/en"} router={router} />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

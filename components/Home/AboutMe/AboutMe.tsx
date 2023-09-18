@@ -8,6 +8,8 @@ export default function AboutMe(props) {
       "Next.js",
       "Ether.js",
       "Express",
+      "Angular",
+      "Adobe XD",
       "Django",
       "JavaScript (ES6+)",
       "Tailwind CSS",
@@ -18,6 +20,7 @@ export default function AboutMe(props) {
     [
       "Rust",
       "React",
+      "Figma",
       "web3.js",
       "Node.js",
       "Python",

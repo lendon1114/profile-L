@@ -12,6 +12,11 @@ export default function TrustToken() {
       text: "Have developed Ethereum Energy contract and Frontend-with react, web3, ether.js",
       keywords: ["scripts"],
     },
+
+    {
+      text: "Designed, single-handedly, UX/UI for end-to-end wastemanagement logistics platform, namely the work ordercollection, managing resources (drivers/vehicles), work ordertimeline planning, live dispatch management, close shift andreporting",
+      keywords: ["Figma"],
+    },
     {
       text: "Developed Smart Contract with solidity and Defi",
       keywords: ["non-developers"],

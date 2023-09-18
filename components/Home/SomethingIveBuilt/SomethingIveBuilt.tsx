@@ -216,7 +216,7 @@ export default function SomethingIveBuilt() {
           </div>
         </div>
 
-        {/* // ?  Project 3 */}
+        {/* // ?  Project 11 */}
         <div
           data-aos="fade-up"
           className="relative md:grid md:grid-cols-12 w-full md:h-96  "
@@ -227,14 +227,14 @@ export default function SomethingIveBuilt() {
           absolute md:grid grid-cols-12 w-full h-full  content-center "
           >
             <div className="relative rounded w-full h-full col-start-6 col-span-7 ">
-              <Link href={"https://unjabbed.vercel.app/"}>
+              <Link href={"https://www.figma.com/file/Txpg9Y0t9rnosiNIjSvhzu/AI-chatbot?type=design&node-id=0-1&mode=design&t=9SnQFP5vILU6unHL-0"}>
                 <div
                   className="absolute w-full h-full rounded bg-AAsecondary 
            transition-opacity opacity-20 hover:opacity-0 hover:cursor-pointer duration-300"
                 ></div>
               </Link>
               <Img
-                src={"/img/Unjabbed.png"}
+                src={"/img/AI Chatbot.png"}
                 alt={"Project Screen shot"}
                 className={`w-full rounded h-full `}
               />
@@ -248,7 +248,7 @@ export default function SomethingIveBuilt() {
                 <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
                 <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
                 <Img
-                  src={"/img/Unjabbed.png"}
+                  src={"/img/AI Chatbot.png"}
                   alt={"Project Screen shot"}
                   className={`w-full h-full`}
                 />
@@ -263,42 +263,43 @@ export default function SomethingIveBuilt() {
                 <span className="text-AAsecondary text-base">
                   Recent Project
                 </span>
-                <Link href={"https://unjabbed.vercel.app/"}>
+                <Link href={"https://www.figma.com/file/Txpg9Y0t9rnosiNIjSvhzu/AI-chatbot?type=design&node-id=0-1&mode=design&t=9SnQFP5vILU6unHL-0"}>
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
-                    Unjabbed
+                    AI Chatbot
                   </span>
                 </Link>
               </div>
               <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
                 <p className="text-gray-300 md:text-gray-400 text-left ">
-                  Unjabbed is <span className="text-AAsecondary"> Dating site </span>.
+                  This is <span className="text-AAsecondary"> AI Chatbot </span> design.
                   <br />
-                  At Unjabbed, our mission is to create a safe, inclusive, and supportive space for unvaccinated individuals seeking meaningful connections.
+                  I made this using <span className="text-AAsecondary">Figma</span>.
+                  <br />
+                  I made it modern to make <span className="text-AAsecondary"> AI Chatbot </span> more realistic.
                 </p>
               </div>
               <ul
                 className="flex flex-wrap w-full text-gray-300 md:text-gray-400
                text-sm font-Text2 md:justify-start"
               >
-                <span className="pr-4 z-10">React.ja</span>
-                <span className="pr-4 z-10">Next.js</span>
-                <span className="pr-4 z-10">Tailwind CSS</span>
-                <span className="pr-4 z-10">JavaScript</span>
-                <span className="pr-4 z-10">Firebase</span>
+                <span className="pr-4 z-10">Figma</span>
+                <span className="pr-4 z-10">CSS</span>
+                <span className="pr-4 z-10">HTML</span>
               </ul>
               <div className="z-10 flex fle-row space-x-5 ">
-                <GithubIcon link="https://github.com/topsecretagent008/Dating-ui" />
+                <GithubIcon link="https://www.figma.com/file/Txpg9Y0t9rnosiNIjSvhzu/AI-chatbot?type=design&node-id=0-1&mode=design&t=9SnQFP5vILU6unHL-0" />
                 <a
                   href=""
                   target={"_blank"}
                   rel="noreferrer"
                 >
-                  <ExternalLink url={"https://unjabbed.vercel.app/"} router={router} />
+                  <ExternalLink url={"https://www.figma.com/file/Txpg9Y0t9rnosiNIjSvhzu/AI-chatbot?type=design&node-id=0-1&mode=design&t=9SnQFP5vILU6unHL-0"} router={router} />
                 </a>
               </div>
             </div>
           </div>
         </div>
+
 
         {/* // ? Project 4 */}
         <div
@@ -387,6 +388,185 @@ export default function SomethingIveBuilt() {
                   rel="noreferrer"
                 >
                   <ExternalLink url={"https://0xwlf.io/"} router={router} />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* // ?  Project 3 */}
+        <div
+          data-aos="fade-up"
+          className="relative md:grid md:grid-cols-12 w-full md:h-96  "
+        >
+          {/* Left image */}
+          <div
+            className="hidden bg-AAprimary z-10  py-4 
+          absolute md:grid grid-cols-12 w-full h-full  content-center "
+          >
+            <div className="relative rounded w-full h-full col-start-6 col-span-7 ">
+              <Link href={"https://unjabbed.vercel.app/"}>
+                <div
+                  className="absolute w-full h-full rounded bg-AAsecondary 
+           transition-opacity opacity-20 hover:opacity-0 hover:cursor-pointer duration-300"
+                ></div>
+              </Link>
+              <Img
+                src={"/img/Unjabbed.png"}
+                alt={"Project Screen shot"}
+                className={`w-full rounded h-full `}
+              />
+            </div>
+          </div>
+
+          {/* right Content */}
+          <div className=" md:absolute py-4  md:grid md:grid-cols-12 w-full h-full  content-center ">
+            <div className="absolute w-full h-full bg-opacity-70 z-0 md:order-2">
+              <div className="relative w-full h-full">
+                <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
+                <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
+                <Img
+                  src={"/img/Unjabbed.png"}
+                  alt={"Project Screen shot"}
+                  className={`w-full h-full`}
+                />
+              </div>
+            </div>
+
+            <div
+              className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-6   
+            col-span-8 flex flex-col items-start  space-y-3 md:order-1"
+            >
+              <div className="flex flex-col space-y-1  z-10">
+                <span className="text-AAsecondary text-base">
+                  Recent Project
+                </span>
+                <Link href={"https://unjabbed.vercel.app/"}>
+                  <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
+                    Unjabbed
+                  </span>
+                </Link>
+              </div>
+              <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
+                <p className="text-gray-300 md:text-gray-400 text-left ">
+                  Unjabbed is <span className="text-AAsecondary"> Dating site </span>.
+                  <br />
+                  At Unjabbed, our mission is to create a safe, inclusive, and supportive space for unvaccinated individuals seeking meaningful connections.
+                </p>
+              </div>
+              <ul
+                className="flex flex-wrap w-full text-gray-300 md:text-gray-400
+               text-sm font-Text2 md:justify-start"
+              >
+                <span className="pr-4 z-10">React.ja</span>
+                <span className="pr-4 z-10">Next.js</span>
+                <span className="pr-4 z-10">Tailwind CSS</span>
+                <span className="pr-4 z-10">JavaScript</span>
+                <span className="pr-4 z-10">Firebase</span>
+              </ul>
+              <div className="z-10 flex fle-row space-x-5 ">
+                <GithubIcon link="https://github.com/topsecretagent008/Dating-ui" />
+                <a
+                  href=""
+                  target={"_blank"}
+                  rel="noreferrer"
+                >
+                  <ExternalLink url={"https://unjabbed.vercel.app/"} router={router} />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        {/* // ? Project 12 */}
+        <div
+          data-aos="fade-up"
+          className="relative md:grid md:grid-cols-12 w-full md:h-96"
+        >
+          {/* Left image */}
+          <div
+            className="hidden bg-AAprimary z-10  py-4 
+          absolute md:grid grid-cols-12 w-full h-full  content-center"
+          >
+            <div className="relative rounded w-full h-full col-span-7 ">
+              <a
+                href="https://www.figma.com/file/eXCf2OZAVDtWtovVWouRSh/Mobile-app?type=design&node-id=0-1&mode=design&t=t49tcJgMOyrbaWIm-0"
+                target={"_blank"}
+                rel="noreferrer"
+              >
+                <div
+                  // onClick={}
+                  className="absolute w-full h-full rounded bg-AAprimary 
+           transition-opacity opacity-50 hover:opacity-0 hover:cursor-pointer duration-300"
+                ></div>
+              </a>
+              <Img
+                src={"/img/Mobile app.png"}
+                alt={"Project Screen shot"}
+                className={`w-full rounded h-full `}
+              />
+            </div>
+          </div>
+
+          {/* right Content */}
+          <div className=" md:absolute py-4  md:grid md:grid-cols-12 w-full h-full  content-center ">
+            {/* background for text in mobile responsive */}
+            <div className="absolute w-full h-full bg-opacity-70 z-0">
+              <div className="relative w-full h-full">
+                <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
+                <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
+                <Img
+                  src={"/img/Mobile app.png"}
+                  alt={"Project Screen shot"}
+                  className={`w-full h-full `}
+                />
+              </div>
+            </div>
+
+            <div
+              className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-6 xl:col-start-7 col-start-5 
+            col-span-8 flex flex-col items-start md:items-end sm:space-y-3 space-y-1"
+            >
+              <div className="flex flex-col space-y-1 md:items-end z-10">
+                <span className="text-AAsecondary text-base">
+                  Recent Project
+                </span>
+                <a
+                  href="https://www.figma.com/file/eXCf2OZAVDtWtovVWouRSh/Mobile-app?type=design&node-id=0-1&mode=design&t=t49tcJgMOyrbaWIm-0"
+                  target={"_blank"}
+                  rel="noreferrer"
+                >
+                  <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
+                    Mobile app
+                  </span>
+                </a>
+              </div>
+              <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
+                <p className="text-gray-300 md:text-gray-400 text-left md:text-right">
+                  This is <span className="text-AAsecondary"> Mobile app </span> design.
+                  <br />
+                  I made this using <span className="text-AAsecondary">Figma</span>.
+                  <br />
+                  I made it modern to make <span className="text-AAsecondary"> Mobile app </span> more realistic.
+                </p>
+              </div>
+              <ul
+                className="flex flex-wrap w-full text-gray-300 md:text-gray-400
+               text-sm font-Text2 md:justify-end"
+              >
+                <span className="pr-4 z-10">Figma</span>
+                <span className="pr-4 z-10">CSS</span>
+                <span className="pr-4 z-10">HTML</span>
+              </ul>
+              <div className="z-10 flex fle-row space-x-5 sm:pt-0 pt-2">
+                <GithubIcon link="https://www.figma.com/file/eXCf2OZAVDtWtovVWouRSh/Mobile-app?type=design&node-id=0-1&mode=design&t=t49tcJgMOyrbaWIm-0" />
+                <a
+                  href=""
+                  target={"_blank"}
+                  rel="noreferrer"
+                >
+                  <ExternalLink url={"https://www.figma.com/file/eXCf2OZAVDtWtovVWouRSh/Mobile-app?type=design&node-id=0-1&mode=design&t=t49tcJgMOyrbaWIm-0"} router={router} />
                 </a>
               </div>
             </div>
@@ -926,184 +1106,6 @@ export default function SomethingIveBuilt() {
           </div>
         </div>
 
-
-        {/* // ?  Project 11 */}
-        <div
-          data-aos="fade-up"
-          className="relative md:grid md:grid-cols-12 w-full md:h-96  "
-        >
-          {/* Left image */}
-          <div
-            className="hidden bg-AAprimary z-10  py-4 
-          absolute md:grid grid-cols-12 w-full h-full  content-center "
-          >
-            <div className="relative rounded w-full h-full col-start-6 col-span-7 ">
-              <Link href={"https://www.figma.com/file/Txpg9Y0t9rnosiNIjSvhzu/AI-chatbot?type=design&node-id=0-1&mode=design&t=9SnQFP5vILU6unHL-0"}>
-                <div
-                  className="absolute w-full h-full rounded bg-AAsecondary 
-           transition-opacity opacity-20 hover:opacity-0 hover:cursor-pointer duration-300"
-                ></div>
-              </Link>
-              <Img
-                src={"/img/AI Chatbot.png"}
-                alt={"Project Screen shot"}
-                className={`w-full rounded h-full `}
-              />
-            </div>
-          </div>
-
-          {/* right Content */}
-          <div className=" md:absolute py-4  md:grid md:grid-cols-12 w-full h-full  content-center ">
-            <div className="absolute w-full h-full bg-opacity-70 z-0 md:order-2">
-              <div className="relative w-full h-full">
-                <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
-                <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
-                <Img
-                  src={"/img/AI Chatbot.png"}
-                  alt={"Project Screen shot"}
-                  className={`w-full h-full`}
-                />
-              </div>
-            </div>
-
-            <div
-              className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-6   
-            col-span-8 flex flex-col items-start  space-y-3 md:order-1"
-            >
-              <div className="flex flex-col space-y-1  z-10">
-                <span className="text-AAsecondary text-base">
-                  Recent Project
-                </span>
-                <Link href={"https://www.figma.com/file/Txpg9Y0t9rnosiNIjSvhzu/AI-chatbot?type=design&node-id=0-1&mode=design&t=9SnQFP5vILU6unHL-0"}>
-                  <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
-                    AI Chatbot
-                  </span>
-                </Link>
-              </div>
-              <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
-                <p className="text-gray-300 md:text-gray-400 text-left ">
-                  This is <span className="text-AAsecondary"> AI Chatbot </span> design.
-                  <br />
-                  I made this using <span className="text-AAsecondary">Figma</span>.
-                  <br />
-                  I made it modern to make <span className="text-AAsecondary"> AI Chatbot </span> more realistic.
-                </p>
-              </div>
-              <ul
-                className="flex flex-wrap w-full text-gray-300 md:text-gray-400
-               text-sm font-Text2 md:justify-start"
-              >
-                <span className="pr-4 z-10">Figma</span>
-                <span className="pr-4 z-10">CSS</span>
-                <span className="pr-4 z-10">HTML</span>
-              </ul>
-              <div className="z-10 flex fle-row space-x-5 ">
-                <GithubIcon link="https://www.figma.com/file/Txpg9Y0t9rnosiNIjSvhzu/AI-chatbot?type=design&node-id=0-1&mode=design&t=9SnQFP5vILU6unHL-0" />
-                <a
-                  href=""
-                  target={"_blank"}
-                  rel="noreferrer"
-                >
-                  <ExternalLink url={"https://www.figma.com/file/Txpg9Y0t9rnosiNIjSvhzu/AI-chatbot?type=design&node-id=0-1&mode=design&t=9SnQFP5vILU6unHL-0"} router={router} />
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        {/* // ? Project 8 */}
-        <div
-          data-aos="fade-up"
-          className="relative md:grid md:grid-cols-12 w-full md:h-96"
-        >
-          {/* Left image */}
-          <div
-            className="hidden bg-AAprimary z-10  py-4 
-          absolute md:grid grid-cols-12 w-full h-full  content-center"
-          >
-            <div className="relative rounded w-full h-full col-span-7 ">
-              <a
-                href="https://www.figma.com/file/eXCf2OZAVDtWtovVWouRSh/Mobile-app?type=design&node-id=0-1&mode=design&t=t49tcJgMOyrbaWIm-0"
-                target={"_blank"}
-                rel="noreferrer"
-              >
-                <div
-                  // onClick={}
-                  className="absolute w-full h-full rounded bg-AAprimary 
-           transition-opacity opacity-50 hover:opacity-0 hover:cursor-pointer duration-300"
-                ></div>
-              </a>
-              <Img
-                src={"/img/Mobile app.png"}
-                alt={"Project Screen shot"}
-                className={`w-full rounded h-full `}
-              />
-            </div>
-          </div>
-
-          {/* right Content */}
-          <div className=" md:absolute py-4  md:grid md:grid-cols-12 w-full h-full  content-center ">
-            {/* background for text in mobile responsive */}
-            <div className="absolute w-full h-full bg-opacity-70 z-0">
-              <div className="relative w-full h-full">
-                <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
-                <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
-                <Img
-                  src={"/img/Mobile app.png"}
-                  alt={"Project Screen shot"}
-                  className={`w-full h-full `}
-                />
-              </div>
-            </div>
-
-            <div
-              className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-6 xl:col-start-7 col-start-5 
-            col-span-8 flex flex-col items-start md:items-end sm:space-y-3 space-y-1"
-            >
-              <div className="flex flex-col space-y-1 md:items-end z-10">
-                <span className="text-AAsecondary text-base">
-                  Recent Project
-                </span>
-                <a
-                  href="https://www.figma.com/file/eXCf2OZAVDtWtovVWouRSh/Mobile-app?type=design&node-id=0-1&mode=design&t=t49tcJgMOyrbaWIm-0"
-                  target={"_blank"}
-                  rel="noreferrer"
-                >
-                  <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
-                    Mobile app
-                  </span>
-                </a>
-              </div>
-              <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
-                <p className="text-gray-300 md:text-gray-400 text-left md:text-right">
-                  This is <span className="text-AAsecondary"> Mobile app </span> design.
-                  <br />
-                  I made this using <span className="text-AAsecondary">Figma</span>.
-                  <br />
-                  I made it modern to make <span className="text-AAsecondary"> Mobile app </span> more realistic.
-                </p>
-              </div>
-              <ul
-                className="flex flex-wrap w-full text-gray-300 md:text-gray-400
-               text-sm font-Text2 md:justify-end"
-              >
-                <span className="pr-4 z-10">Figma</span>
-                <span className="pr-4 z-10">CSS</span>
-                <span className="pr-4 z-10">HTML</span>
-              </ul>
-              <div className="z-10 flex fle-row space-x-5 sm:pt-0 pt-2">
-                <GithubIcon link="https://www.figma.com/file/eXCf2OZAVDtWtovVWouRSh/Mobile-app?type=design&node-id=0-1&mode=design&t=t49tcJgMOyrbaWIm-0" />
-                <a
-                  href=""
-                  target={"_blank"}
-                  rel="noreferrer"
-                >
-                  <ExternalLink url={"https://www.figma.com/file/eXCf2OZAVDtWtovVWouRSh/Mobile-app?type=design&node-id=0-1&mode=design&t=t49tcJgMOyrbaWIm-0"} router={router} />
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
   );

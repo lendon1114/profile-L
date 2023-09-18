@@ -70,9 +70,9 @@ export default function AboutMe(props) {
                 <br className="md:block hidden" />
                 As a{" "}
                 <span className="text-AAsecondary">
-                  senior fullstack developer
+                  senior fullstack developer,
                 </span>{" "}
-                have rich experience about development
+                I have full experience in building Web apps and designs.
               </span>
             </div>
             <div className="font-Header tracking-wide">

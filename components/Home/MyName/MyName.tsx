@@ -75,7 +75,7 @@ export default function MyName(props: { finishedLoading: boolean }) {
         }}
         className="text-gray-400 font-Header text-sm md:text-lg sm:text-md mt-10 tracking-wider"
       >
-        I am a full-stack web developer specializing in developing full-stack web applications using practical frameworks. I am passionate about solving other people is problems. Solutions that are good for me usually take more effort and creativity to adapt and adapt.
+        I am a full-stack web developer and UI/UX designer specializing in developing full-stack web applications using practical frameworks. I am passionate about solving other people is problems. Solutions that are good for me usually take more effort and creativity to adapt and adapt.
       </motion.h3>
       <motion.div
         initial={{ y: 10, opacity: 0 }}

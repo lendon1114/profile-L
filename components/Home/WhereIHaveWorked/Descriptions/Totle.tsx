@@ -9,6 +9,10 @@ export default function Totle() {
       keywords: ["About Company"],
     },
     {
+      text: "Developed creative concepts, UX and UI for innovative AI-powered experience startups, working closely with the production teams and the different stakeholders, using a design-thinking and user-centered approach to develop and improve user-flows and interactions.",
+      keywords: ["Figma", "AWS", "UI/UX"],
+    },
+    {
       text: "Developed decentralized token with Solidity, Web3 and Front-End based on React , Typescript",
       keywords: ["Next.js/React", "AWS", "Vercel"],
     },
@@ -24,12 +28,12 @@ export default function Totle() {
         <div className="flex flex-col spacey-y-2">
           {/* Title */}
           <span className="text-gray-100 sm:text-lg text-sm font-Arimo tracking-wide">
-          Senior Full-Stack Engineer
+            Senior Full-Stack Engineer
             <span className="text-AAsecondary"> @ Packetlabs Ltd</span>
           </span>
           {/* Date */}
           <span className="font-mono text-xs text-gray-500">
-          August 2022 - January 2023
+            August 2022 - January 2023
           </span>
         </div>
         <div className="flex flex-col space-y-4 sm:text-sm text-xs">

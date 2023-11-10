@@ -47,13 +47,13 @@ export default function SocialMediaEmail(props: { finishedLoading: boolean }) {
               href={"https://github.com/topsecretagent008"}
             />
             {/* Linkedin icon */}
-            <IconClickableWithAnimation Icon={LinkedinIcon} href={"https://www.linkedin.com/in/lendon-bracewell-558563266/"} />
+            {/* <IconClickableWithAnimation Icon={LinkedinIcon} href={"https://www.linkedin.com/in/lendon-bracewell-558563266/"} /> */}
             {/* Youtube Icon */}
             <IconClickableWithAnimation
               Icon={DiscordIcon}
-              href={"https://discordapp.com/users/1150872573777809418"}
+              href={"https://discordapp.com/users/1172401787303624714"}
             />
-            <IconClickableWithAnimation Icon={TelegramIcon} href={"https://t.me/techwolf3389"} />
+            <IconClickableWithAnimation Icon={TelegramIcon} href={"https://t.me/super_r_star1114"} />
           </div>
           <div className="h-32 w-0.5 bg-gray-400"></div>
         </div>

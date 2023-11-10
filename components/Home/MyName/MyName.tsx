@@ -75,7 +75,9 @@ export default function MyName(props: { finishedLoading: boolean }) {
         }}
         className="text-gray-400 font-Header text-sm md:text-lg sm:text-md mt-10 tracking-wider"
       >
-        I am a full-stack web developer and UI/UX designer specializing in developing full-stack web applications using practical frameworks. I am passionate about solving other people is problems. Solutions that are good for me usually take more effort and creativity to adapt and adapt.
+        As a developer with 7 years of development experience, I possess many skills.
+        <br />
+        I am <span className="text-blue-500">full stack blockchain developer and web3 developer, web designer, full stack developer</span>.
       </motion.h3>
       <motion.div
         initial={{ y: 10, opacity: 0 }}

@@ -11,8 +11,7 @@ export default function SomethingIveBuilt() {
   return (
     <div
       id="SomethingIveBuiltSection"
-      className=" flex flex-col space-y-12 bg-AAprimary w-full  
-     2xl:px-72 lg:px-24 md:px-16 sm:px-16 py-32 px-4"
+      className=" flex flex-col space-y-12 bg-AAprimary w-full  2xl:px-72 lg:px-24 md:px-16 sm:px-16 py-32 px-4"
     >
       {/* // ? Title  */}
       <div data-aos="fade-up" className=" flex flex-row  items-center md:px-0">
@@ -46,7 +45,373 @@ export default function SomethingIveBuilt() {
           absolute md:grid grid-cols-12 w-full h-full  content-center "
           >
             <div className="relative rounded w-full h-full col-start-6 col-span-7 ">
-              <a href={"https://spwallet.tokery.io/"} target="_blank" rel="noreferrer">
+              <a href={"https://dotbet.com/"} target="_blank" rel="noreferrer">
+                <div
+                  className="absolute w-full h-full rounded bg-AAprimary 
+           transition-opacity opacity-50 hover:opacity-0 hover:cursor-pointer duration-300"
+                ></div>
+              </a>
+              <Img
+                src={"/img/dotbet.png"}
+                alt={"Project Screen shot"}
+                className={`w-full rounded h-full `}
+              />
+            </div>
+          </div>
+
+          {/* right Content */}
+          <div className=" md:absolute py-4  md:grid md:grid-cols-12 w-full h-full  content-center ">
+            {/* background for text in mobile responsive */}
+            <div className="absolute w-full h-full bg-opacity-70 z-0 md:order-2">
+              <div className="relative w-full h-full">
+                <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
+                <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
+                <Img
+                  src={"/img/dotbet.png"}
+                  alt={"Project Screen shot"}
+                  className={`w-full h-full`}
+                />
+              </div>
+            </div>
+
+            <div
+              className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-6   
+            col-span-8 flex flex-col items-start  space-y-3 md:order-1"
+            >
+              <div className="flex flex-col space-y-1  z-10">
+                <span className="text-AAsecondary text-base">
+                  Recent Project
+                </span>
+                <Link href={"https://dotbet.io/"}>
+                  <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
+                    DotBet
+                  </span>
+                </Link>
+              </div>
+              <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
+                <p className="text-gray-300 md:text-gray-400 text-left ">
+                  This site is a site that{" "}
+                  <span className="text-AAsecondary">connects game sites</span>{" "}
+                  and is an intermediary site that shows and allows users to use
+                  many game servers. I added{" "}
+                  <span className="text-AAsecondary">AWC games</span> here and
+                  made them available.
+                </p>
+              </div>
+              <ul
+                className="flex flex-wrap w-full text-gray-300 md:text-gray-400
+               text-sm font-Text2 md:justify-start"
+              >
+                <span className="pr-4 z-10">✔React.js</span>
+                <span className="pr-4 z-10">✔Node.js</span>
+                <span className="pr-4 z-10">✔JavaScript</span>
+                <span className="pr-4 z-10">✔Tailwind CSS</span>
+                <span className="pr-4 z-10">✔English</span>
+              </ul>
+              <div className="z-10 flex fle-row space-x-5 ">
+                <GithubIcon link="https://github.com/topsecretagent008/dotbet-FE" />
+                <a href="" target={"_blank"} rel="noreferrer">
+                  <ExternalLink url={"https://dotbet.io/"} router={router} />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* // ?  Project  2*/}
+        <div
+          data-aos="fade-up"
+          className="relative md:grid md:grid-cols-12 w-full md:h-96 "
+        >
+          {/* Left image */}
+          <div
+            className="hidden bg-AAprimary z-10  py-4 
+          absolute md:grid grid-cols-12 w-full h-full  content-center"
+          >
+            <div className="relative rounded w-full h-full col-span-7 ">
+              <a
+                href={"https://https://flip.baby/"}
+                target="_blank"
+                rel="noreferrer"
+              >
+                <div
+                  className="absolute w-full h-full rounded bg-AAprimary 
+           transition-opacity opacity-50 hover:opacity-0 hover:cursor-pointer duration-300"
+                ></div>
+              </a>
+
+              <Img
+                src={"/img/flip.png"}
+                alt={"Project Screen shot"}
+                className={`w-full rounded h-full `}
+              />
+            </div>
+          </div>
+
+          {/* right Content */}
+          <div className=" md:absolute py-4  md:grid md:grid-cols-12 w-full h-full  content-center ">
+            {/* background for text in mobile responsive */}
+            <div className="absolute w-full h-full bg-opacity-70 z-0">
+              <div className="relative w-full h-full">
+                <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
+                <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
+                <Img
+                  src={"/img/flip.png"}
+                  alt={"Project Screen shot"}
+                  className={`w-full h-full `}
+                />
+              </div>
+            </div>
+
+            <div
+              className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-6 xl:col-start-7 col-start-5 
+            col-span-8 flex flex-col items-start md:items-end space-y-3"
+            >
+              <div className="flex flex-col space-y-1 md:items-end z-10">
+                <span className="text-AAsecondary text-base">
+                  Recent Project
+                </span>
+                <Link href={"https://https://flip.baby/"}>
+                  <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
+                    Filp Baby
+                  </span>
+                </Link>
+              </div>
+              <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
+                <p className="text-gray-300 md:text-gray-400 text-left md:text-right">
+                  This is a{" "}
+                  <span className="text-AAsecondary">betting site</span> where
+                  you bet with Sol. Here, users make money by placing bets. I
+                  mainly worked on the{" "}
+                  <span className="text-AAsecondary">
+                    front-end and contract
+                  </span>{" "}
+                  here.
+                </p>
+              </div>
+              <ul
+                className="flex flex-wrap w-full text-gray-300 md:text-gray-400
+               text-sm font-Text2 md:justify-end"
+              >
+                <span className="pr-4 z-10">Solana</span>
+                <span className="pr-4 z-10">Smart Contract</span>
+                <span className="pr-4 z-10">React.js</span>
+                <span className="pr-4 z-10">TypeScript</span>
+                <span className="pr-4 z-10">Tailwind CSS</span>
+              </ul>
+              <div className="z-10 flex fle-row space-x-5 ">
+                <GithubIcon link="https://github.com/topsecretagent008/Coin-flip" />
+                <a href="" target={"_blank"} rel="noreferrer">
+                  <ExternalLink
+                    url={"https://https://flip.baby/"}
+                    router={router}
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* // ?  Project 1 */}
+        <div
+          data-aos="fade-up"
+          className="relative md:grid md:grid-cols-12 w-full md:h-96  "
+        >
+          {/* Left image */}
+          <div
+            className="hidden bg-AAprimary z-10  py-4 
+          absolute md:grid grid-cols-12 w-full h-full  content-center "
+          >
+            <div className="relative rounded w-full h-full col-start-6 col-span-7 ">
+              <a
+                href={"https://logarithm-games.vercel.app/"}
+                target="_blank"
+                rel="noreferrer"
+              >
+                <div
+                  className="absolute w-full h-full rounded bg-AAprimary 
+           transition-opacity opacity-50 hover:opacity-0 hover:cursor-pointer duration-300"
+                ></div>
+              </a>
+              <Img
+                src={"/img/ddd.png"}
+                alt={"Project Screen shot"}
+                className={`w-full rounded h-full `}
+              />
+            </div>
+          </div>
+
+          {/* right Content */}
+          <div className=" md:absolute py-4  md:grid md:grid-cols-12 w-full h-full  content-center ">
+            {/* background for text in mobile responsive */}
+            <div className="absolute w-full h-full bg-opacity-70 z-0 md:order-2">
+              <div className="relative w-full h-full">
+                <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
+                <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
+                <Img
+                  src={"/img/ddd.png"}
+                  alt={"Project Screen shot"}
+                  className={`w-full h-full`}
+                />
+              </div>
+            </div>
+
+            <div
+              className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-6   
+            col-span-8 flex flex-col items-start  space-y-3 md:order-1"
+            >
+              <div className="flex flex-col space-y-1  z-10">
+                <span className="text-AAsecondary text-base">
+                  Recent Project
+                </span>
+                <Link href={"https://logarithm-games.vercel.app/"}>
+                  <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
+                    Logarithm Games
+                  </span>
+                </Link>
+              </div>
+              <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
+                <p className="text-gray-300 md:text-gray-400 text-left ">
+                  The developer of the first political{" "}
+                  <span className="text-AAsecondary">
+                    mobile and computer games
+                  </span>
+                  based on the play and watch-to earn method with the
+                  opportunity to earn the company's main token -{" "}
+                  <span className="text-AAsecondary">LOGG Token</span>, the
+                  first multiplier of games with visual integration of ad units.
+                  I performed the{" "}
+                  <span className="text-AAsecondary">contract</span> part and
+                  some <span className="text-AAsecondary">front-end</span> parts
+                  here.
+                </p>
+              </div>
+              <ul
+                className="flex flex-wrap w-full text-gray-300 md:text-gray-400
+               text-sm font-Text2 md:justify-start"
+              >
+                <span className="pr-4 z-10">✔Smart contract</span>
+                <span className="pr-4 z-10">✔HTML</span>
+                <span className="pr-4 z-10">✔CSS</span>
+                <span className="pr-4 z-10">✔JavaScript</span>
+                <span className="pr-4 z-10">✔JQuery</span>
+              </ul>
+              <div className="z-10 flex fle-row space-x-5 ">
+                <GithubIcon link="https://github.com/topsecretagent008/logarithm-games" />
+                <a href="" target={"_blank"} rel="noreferrer">
+                  <ExternalLink
+                    url={"https://logarithm-games.vercel.app/"}
+                    router={router}
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* // ?  Project  2*/}
+        <div
+          data-aos="fade-up"
+          className="relative md:grid md:grid-cols-12 w-full md:h-96 "
+        >
+          {/* Left image */}
+          <div
+            className="hidden bg-AAprimary z-10  py-4 
+          absolute md:grid grid-cols-12 w-full h-full  content-center"
+          >
+            <div className="relative rounded w-full h-full col-span-7 ">
+              <a
+                href={"https://morts.design/"}
+                target="_blank"
+                rel="noreferrer"
+              >
+                <div
+                  className="absolute w-full h-full rounded bg-AAprimary 
+           transition-opacity opacity-50 hover:opacity-0 hover:cursor-pointer duration-300"
+                ></div>
+              </a>
+
+              <Img
+                src={"/img/morts.png"}
+                alt={"Project Screen shot"}
+                className={`w-full rounded h-full `}
+              />
+            </div>
+          </div>
+
+          {/* right Content */}
+          <div className=" md:absolute py-4  md:grid md:grid-cols-12 w-full h-full  content-center ">
+            {/* background for text in mobile responsive */}
+            <div className="absolute w-full h-full bg-opacity-70 z-0">
+              <div className="relative w-full h-full">
+                <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
+                <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
+                <Img
+                  src={"/img/morts.png"}
+                  alt={"Project Screen shot"}
+                  className={`w-full h-full `}
+                />
+              </div>
+            </div>
+
+            <div
+              className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-6 xl:col-start-7 col-start-5 
+            col-span-8 flex flex-col items-start md:items-end space-y-3"
+            >
+              <div className="flex flex-col space-y-1 md:items-end z-10">
+                <span className="text-AAsecondary text-base">
+                  Recent Project
+                </span>
+                <Link href={"https://morts.design/"}>
+                  <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
+                    MORTS
+                  </span>
+                </Link>
+              </div>
+              <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
+                <p className="text-gray-300 md:text-gray-400 text-left md:text-right">
+                  + A mysterious art collection of{" "}
+                  <span className="text-AAsecondary">5555 NFTs</span> on solana
+                  that have risen from the dead. Our French name is a nod to our
+                  undead status. We are here to build the{" "}
+                  <span className="text-AAsecondary">Morts brand</span> into a
+                  world known Nft brand. Come and join our{" "}
+                  <span className="text-AAsecondary">amazing community</span>.
+                </p>
+              </div>
+              <ul
+                className="flex flex-wrap w-full text-gray-300 md:text-gray-400
+               text-sm font-Text2 md:justify-end"
+              >
+                <span className="pr-4 z-10">HTML</span>
+                <span className="pr-4 z-10">JQuery</span>
+                <span className="pr-4 z-10">Front-end</span>
+                <span className="pr-4 z-10">Back-end</span>
+              </ul>
+              <div className="z-10 flex fle-row space-x-5 ">
+                <GithubIcon link="https://github.com/topsecretagent008/morts-front" />
+                <a href="" target={"_blank"} rel="noreferrer">
+                  <ExternalLink url={"https://morts.design/"} router={router} />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* // ?  Project 1 */}
+        <div
+          data-aos="fade-up"
+          className="relative md:grid md:grid-cols-12 w-full md:h-96  "
+        >
+          {/* Left image */}
+          <div
+            className="hidden bg-AAprimary z-10  py-4 
+          absolute md:grid grid-cols-12 w-full h-full  content-center "
+          >
+            <div className="relative rounded w-full h-full col-start-6 col-span-7 ">
+              <a
+                href={"https://spwallet.tokery.io/"}
+                target="_blank"
+                rel="noreferrer"
+              >
                 <div
                   className="absolute w-full h-full rounded bg-AAprimary 
            transition-opacity opacity-50 hover:opacity-0 hover:cursor-pointer duration-300"
@@ -97,7 +462,8 @@ export default function SomethingIveBuilt() {
                   <span className="text-AAsecondary"> smart contract.</span>
                   No human involvement in the administration of
                   <span className="text-AAsecondary"> Ethereum.</span>
-                  The value is directly related to how many tokens there are at any given time.
+                  The value is directly related to how many tokens there are at
+                  any given time.
                 </p>
               </div>
               <ul
@@ -113,12 +479,11 @@ export default function SomethingIveBuilt() {
               </ul>
               <div className="z-10 flex fle-row space-x-5 ">
                 <GithubIcon link="https://github.com/topsecretagent008/Taxi-betting-game-frontendfbdfd" />
-                <a
-                  href=""
-                  target={"_blank"}
-                  rel="noreferrer"
-                >
-                  <ExternalLink url={"https://spwallet.tokery.io/"} router={router} />
+                <a href="" target={"_blank"} rel="noreferrer">
+                  <ExternalLink
+                    url={"https://spwallet.tokery.io/"}
+                    router={router}
+                  />
                 </a>
               </div>
             </div>
@@ -187,10 +552,14 @@ export default function SomethingIveBuilt() {
                 <p className="text-gray-300 md:text-gray-400 text-left md:text-right">
                   ZYTH WORLD is a metaverse consisting of 5,000 unique alien
                   <span className="text-AAsecondary"> NFTs </span>
-                  as well as 5,000 unique human NFTs —unique digital collectibles living on the Binance Smart Chain using ZYTH COIN.
-                  Your AVATAR is your unique
+                  as well as 5,000 unique human NFTs —unique digital
+                  collectibles living on the Binance Smart Chain using ZYTH
+                  COIN. Your AVATAR is your unique
                   <span className="text-AAsecondary"> NFT. </span>
-                  This is a collaborative game where you fight with your alliance versus your enemy. If your alliance wins, your alliance will have the % boost for the week. You will earn airdrops from ZYTH Coin and other token partners.
+                  This is a collaborative game where you fight with your
+                  alliance versus your enemy. If your alliance wins, your
+                  alliance will have the % boost for the week. You will earn
+                  airdrops from ZYTH Coin and other token partners.
                 </p>
               </div>
               <ul
@@ -204,18 +573,16 @@ export default function SomethingIveBuilt() {
               </ul>
               <div className="z-10 flex fle-row space-x-5 ">
                 <GithubIcon link="https://github.com/topsecretagent008/Red-devil-FE-next-tailwind-" />
-                <a
-                  href=""
-                  target={"_blank"}
-                  rel="noreferrer"
-                >
-                  <ExternalLink url={"https://www.uzyth.com/"} router={router} />
+                <a href="" target={"_blank"} rel="noreferrer">
+                  <ExternalLink
+                    url={"https://www.uzyth.com/"}
+                    router={router}
+                  />
                 </a>
               </div>
             </div>
           </div>
         </div>
-
         {/* // ?  Project 11 */}
         <div
           data-aos="fade-up"
@@ -227,7 +594,11 @@ export default function SomethingIveBuilt() {
           absolute md:grid grid-cols-12 w-full h-full  content-center "
           >
             <div className="relative rounded w-full h-full col-start-6 col-span-7 ">
-              <Link href={"https://www.figma.com/file/Txpg9Y0t9rnosiNIjSvhzu/AI-chatbot?type=design&node-id=0-1&mode=design&t=9SnQFP5vILU6unHL-0"}>
+              <Link
+                href={
+                  "https://www.figma.com/file/Txpg9Y0t9rnosiNIjSvhzu/AI-chatbot?type=design&node-id=0-1&mode=design&t=9SnQFP5vILU6unHL-0"
+                }
+              >
                 <div
                   className="absolute w-full h-full rounded bg-AAsecondary 
            transition-opacity opacity-20 hover:opacity-0 hover:cursor-pointer duration-300"
@@ -263,7 +634,11 @@ export default function SomethingIveBuilt() {
                 <span className="text-AAsecondary text-base">
                   Recent Project
                 </span>
-                <Link href={"https://www.figma.com/file/Txpg9Y0t9rnosiNIjSvhzu/AI-chatbot?type=design&node-id=0-1&mode=design&t=9SnQFP5vILU6unHL-0"}>
+                <Link
+                  href={
+                    "https://www.figma.com/file/Txpg9Y0t9rnosiNIjSvhzu/AI-chatbot?type=design&node-id=0-1&mode=design&t=9SnQFP5vILU6unHL-0"
+                  }
+                >
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
                     AI Chatbot
                   </span>
@@ -271,11 +646,13 @@ export default function SomethingIveBuilt() {
               </div>
               <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
                 <p className="text-gray-300 md:text-gray-400 text-left ">
-                  This is <span className="text-AAsecondary"> AI Chatbot </span> design.
-                  <br />
-                  I made this using <span className="text-AAsecondary">Figma</span>.
-                  <br />
-                  I made it modern to make <span className="text-AAsecondary"> AI Chatbot </span> more realistic.
+                  This is <span className="text-AAsecondary"> AI Chatbot </span>{" "}
+                  design.
+                  <br />I made this using{" "}
+                  <span className="text-AAsecondary">Figma</span>.
+                  <br />I made it modern to make{" "}
+                  <span className="text-AAsecondary"> AI Chatbot </span> more
+                  realistic.
                 </p>
               </div>
               <ul
@@ -288,19 +665,18 @@ export default function SomethingIveBuilt() {
               </ul>
               <div className="z-10 flex fle-row space-x-5 ">
                 <GithubIcon link="https://www.figma.com/file/Txpg9Y0t9rnosiNIjSvhzu/AI-chatbot?type=design&node-id=0-1&mode=design&t=9SnQFP5vILU6unHL-0" />
-                <a
-                  href=""
-                  target={"_blank"}
-                  rel="noreferrer"
-                >
-                  <ExternalLink url={"https://www.figma.com/file/Txpg9Y0t9rnosiNIjSvhzu/AI-chatbot?type=design&node-id=0-1&mode=design&t=9SnQFP5vILU6unHL-0"} router={router} />
+                <a href="" target={"_blank"} rel="noreferrer">
+                  <ExternalLink
+                    url={
+                      "https://www.figma.com/file/Txpg9Y0t9rnosiNIjSvhzu/AI-chatbot?type=design&node-id=0-1&mode=design&t=9SnQFP5vILU6unHL-0"
+                    }
+                    router={router}
+                  />
                 </a>
               </div>
             </div>
           </div>
         </div>
-
-
         {/* // ? Project 4 */}
         <div
           data-aos="fade-up"
@@ -312,11 +688,7 @@ export default function SomethingIveBuilt() {
           absolute md:grid grid-cols-12 w-full h-full  content-center"
           >
             <div className="relative rounded w-full h-full col-span-7 ">
-              <a
-                href="https://0xwlf.io/"
-                target={"_blank"}
-                rel="noreferrer"
-              >
+              <a href="https://0xwlf.io/" target={"_blank"} rel="noreferrer">
                 <div
                   // onClick={}
                   className="absolute w-full h-full rounded bg-AAprimary 
@@ -354,11 +726,7 @@ export default function SomethingIveBuilt() {
                 <span className="text-AAsecondary text-base">
                   Recent Project
                 </span>
-                <a
-                  href="https://0xwlf.io/"
-                  target={"_blank"}
-                  rel="noreferrer"
-                >
+                <a href="https://0xwlf.io/" target={"_blank"} rel="noreferrer">
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
                     Woman Lif3 Fr33dom
                   </span>
@@ -366,8 +734,10 @@ export default function SomethingIveBuilt() {
               </div>
               <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
                 <p className="text-gray-300 md:text-gray-400 text-left md:text-right">
-                  <span className="text-AAsecondary">Woman Lif3 Fr33dom</span> is an <span className="text-AAsecondary">NFT</span> mint site to help Iranian women fight for freedom.
-                  I performed the <span className="text-AAsecondary">front-end</span> part here.
+                  <span className="text-AAsecondary">Woman Lif3 Fr33dom</span>{" "}
+                  is an <span className="text-AAsecondary">NFT</span> mint site
+                  to help Iranian women fight for freedom. I performed the{" "}
+                  <span className="text-AAsecondary">front-end</span> part here.
                 </p>
               </div>
               <ul
@@ -382,18 +752,13 @@ export default function SomethingIveBuilt() {
               </ul>
               <div className="z-10 flex fle-row space-x-5 sm:pt-0 pt-2">
                 <GithubIcon link="https://github.com/topsecretagent008/NFT-mint" />
-                <a
-                  href=""
-                  target={"_blank"}
-                  rel="noreferrer"
-                >
+                <a href="" target={"_blank"} rel="noreferrer">
                   <ExternalLink url={"https://0xwlf.io/"} router={router} />
                 </a>
               </div>
             </div>
           </div>
         </div>
-
         {/* // ?  Project 3 */}
         <div
           data-aos="fade-up"
@@ -449,9 +814,12 @@ export default function SomethingIveBuilt() {
               </div>
               <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
                 <p className="text-gray-300 md:text-gray-400 text-left ">
-                  Unjabbed is <span className="text-AAsecondary"> Dating site </span>.
+                  Unjabbed is{" "}
+                  <span className="text-AAsecondary"> Dating site </span>.
                   <br />
-                  At Unjabbed, our mission is to create a safe, inclusive, and supportive space for unvaccinated individuals seeking meaningful connections.
+                  At Unjabbed, our mission is to create a safe, inclusive, and
+                  supportive space for unvaccinated individuals seeking
+                  meaningful connections.
                 </p>
               </div>
               <ul
@@ -466,19 +834,16 @@ export default function SomethingIveBuilt() {
               </ul>
               <div className="z-10 flex fle-row space-x-5 ">
                 <GithubIcon link="https://github.com/topsecretagent008/Dating-ui" />
-                <a
-                  href=""
-                  target={"_blank"}
-                  rel="noreferrer"
-                >
-                  <ExternalLink url={"https://unjabbed.vercel.app/"} router={router} />
+                <a href="" target={"_blank"} rel="noreferrer">
+                  <ExternalLink
+                    url={"https://unjabbed.vercel.app/"}
+                    router={router}
+                  />
                 </a>
               </div>
             </div>
           </div>
         </div>
-
-
         {/* // ? Project 12 */}
         <div
           data-aos="fade-up"
@@ -544,11 +909,13 @@ export default function SomethingIveBuilt() {
               </div>
               <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
                 <p className="text-gray-300 md:text-gray-400 text-left md:text-right">
-                  This is <span className="text-AAsecondary"> Mobile app </span> design.
-                  <br />
-                  I made this using <span className="text-AAsecondary">Figma</span>.
-                  <br />
-                  I made it modern to make <span className="text-AAsecondary"> Mobile app </span> more realistic.
+                  This is <span className="text-AAsecondary"> Mobile app </span>{" "}
+                  design.
+                  <br />I made this using{" "}
+                  <span className="text-AAsecondary">Figma</span>.
+                  <br />I made it modern to make{" "}
+                  <span className="text-AAsecondary"> Mobile app </span> more
+                  realistic.
                 </p>
               </div>
               <ul
@@ -561,18 +928,18 @@ export default function SomethingIveBuilt() {
               </ul>
               <div className="z-10 flex fle-row space-x-5 sm:pt-0 pt-2">
                 <GithubIcon link="https://www.figma.com/file/eXCf2OZAVDtWtovVWouRSh/Mobile-app?type=design&node-id=0-1&mode=design&t=t49tcJgMOyrbaWIm-0" />
-                <a
-                  href=""
-                  target={"_blank"}
-                  rel="noreferrer"
-                >
-                  <ExternalLink url={"https://www.figma.com/file/eXCf2OZAVDtWtovVWouRSh/Mobile-app?type=design&node-id=0-1&mode=design&t=t49tcJgMOyrbaWIm-0"} router={router} />
+                <a href="" target={"_blank"} rel="noreferrer">
+                  <ExternalLink
+                    url={
+                      "https://www.figma.com/file/eXCf2OZAVDtWtovVWouRSh/Mobile-app?type=design&node-id=0-1&mode=design&t=t49tcJgMOyrbaWIm-0"
+                    }
+                    router={router}
+                  />
                 </a>
               </div>
             </div>
           </div>
         </div>
-
         {/* // ?  Project 5 */}
         <div
           data-aos="fade-up"
@@ -628,9 +995,12 @@ export default function SomethingIveBuilt() {
               </div>
               <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
                 <p className="text-gray-300 md:text-gray-400 text-left ">
-                  Inspired by the timeless beauty of<span className="text-AAsecondary"> Italy</span>, we combine our passion for the art of hairstyling with cutting-edge technology to create products loved by professionals.
-                  <br />
-                  I made this with <span className="text-AAsecondary"> WordPress </span>.
+                  Inspired by the timeless beauty of
+                  <span className="text-AAsecondary"> Italy</span>, we combine
+                  our passion for the art of hairstyling with cutting-edge
+                  technology to create products loved by professionals.
+                  <br />I made this with{" "}
+                  <span className="text-AAsecondary"> WordPress </span>.
                 </p>
               </div>
               <ul
@@ -645,18 +1015,16 @@ export default function SomethingIveBuilt() {
               </ul>
               <div className="z-10 flex fle-row space-x-5 ">
                 <GithubIcon link="https://github.com/topsecretagent008/difiaba" />
-                <a
-                  href=""
-                  target={"_blank"}
-                  rel="noreferrer"
-                >
-                  <ExternalLink url={"https://www.difiaba.com/"} router={router} />
+                <a href="" target={"_blank"} rel="noreferrer">
+                  <ExternalLink
+                    url={"https://www.difiaba.com/"}
+                    router={router}
+                  />
                 </a>
               </div>
             </div>
           </div>
         </div>
-
         {/* // ? Project 6 */}
         <div
           data-aos="fade-up"
@@ -725,9 +1093,11 @@ export default function SomethingIveBuilt() {
                   <span className="text-AAsecondary">Crafting infinity,</span>
                   one voice at a time.
                   <br />
-                  This is a project that converts voices using <span className="text-AAsecondary">AI</span>.
-                  <br />
-                  I made this with <span className="text-AAsecondary">Python</span> and <span className="text-AAsecondary">API</span>.
+                  This is a project that converts voices using{" "}
+                  <span className="text-AAsecondary">AI</span>.
+                  <br />I made this with{" "}
+                  <span className="text-AAsecondary">Python</span> and{" "}
+                  <span className="text-AAsecondary">API</span>.
                 </p>
               </div>
               <ul
@@ -742,18 +1112,16 @@ export default function SomethingIveBuilt() {
               </ul>
               <div className="z-10 flex fle-row space-x-5 sm:pt-0 pt-2">
                 <GithubIcon link="https://github.com/topsecretagent008/forevervoices" />
-                <a
-                  href=""
-                  target={"_blank"}
-                  rel="noreferrer"
-                >
-                  <ExternalLink url={"https://forevervoices.com/"} router={router} />
+                <a href="" target={"_blank"} rel="noreferrer">
+                  <ExternalLink
+                    url={"https://forevervoices.com/"}
+                    router={router}
+                  />
                 </a>
               </div>
             </div>
           </div>
         </div>
-
         {/* // ?  Project 7 */}
         <div
           data-aos="fade-up"
@@ -809,7 +1177,8 @@ export default function SomethingIveBuilt() {
               </div>
               <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
                 <p className="text-gray-300 md:text-gray-400 text-left ">
-                  This is a video and voice call project created using <span className="text-AAsecondary">React</span>.
+                  This is a video and voice call project created using{" "}
+                  <span className="text-AAsecondary">React</span>.
                   <br />
                   It is currently being used online.
                 </p>
@@ -825,18 +1194,16 @@ export default function SomethingIveBuilt() {
               </ul>
               <div className="z-10 flex fle-row space-x-5 ">
                 <GithubIcon link="https://github.com/topsecretagent008/ubervfx" />
-                <a
-                  href=""
-                  target={"_blank"}
-                  rel="noreferrer"
-                >
-                  <ExternalLink url={"https://www.ubervfx.com/"} router={router} />
+                <a href="" target={"_blank"} rel="noreferrer">
+                  <ExternalLink
+                    url={"https://www.ubervfx.com/"}
+                    router={router}
+                  />
                 </a>
               </div>
             </div>
           </div>
         </div>
-
         {/* // ? Project 8 */}
         <div
           data-aos="fade-up"
@@ -902,11 +1269,20 @@ export default function SomethingIveBuilt() {
               </div>
               <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
                 <p className="text-gray-300 md:text-gray-400 text-left md:text-right">
-                  <span className="text-AAsecondary">Workplace </span> is an online collaborative software tool developed by Meta Platforms.
+                  <span className="text-AAsecondary">Workplace </span> is an
+                  online collaborative software tool developed by Meta
+                  Platforms.
                   <br />
-                  It facilitates online <span className="text-AAsecondary"> groupwork, instant messaging, video conferencing, and news sharing</span>.
-                  <br />
-                  I worked with the <span className="text-AAsecondary"> Meta team </span>when creating this project.
+                  It facilitates online{" "}
+                  <span className="text-AAsecondary">
+                    {" "}
+                    groupwork, instant messaging, video conferencing, and news
+                    sharing
+                  </span>
+                  .
+                  <br />I worked with the{" "}
+                  <span className="text-AAsecondary"> Meta team </span>when
+                  creating this project.
                 </p>
               </div>
               <ul
@@ -920,18 +1296,16 @@ export default function SomethingIveBuilt() {
               </ul>
               <div className="z-10 flex fle-row space-x-5 sm:pt-0 pt-2">
                 <GithubIcon link="https://github.com/topsecretagent008/workplace-app" />
-                <a
-                  href=""
-                  target={"_blank"}
-                  rel="noreferrer"
-                >
-                  <ExternalLink url={"https://meetevoko.com/products/workplace-app/"} router={router} />
+                <a href="" target={"_blank"} rel="noreferrer">
+                  <ExternalLink
+                    url={"https://meetevoko.com/products/workplace-app/"}
+                    router={router}
+                  />
                 </a>
               </div>
             </div>
           </div>
         </div>
-
         {/* // ?  Project 9 */}
         <div
           data-aos="fade-up"
@@ -987,8 +1361,10 @@ export default function SomethingIveBuilt() {
               </div>
               <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
                 <p className="text-gray-300 md:text-gray-400 text-left ">
-                  This is a site for selling and advertising <span className="text-AAsecondary"> wine </span>.
-                  I did the basic <span className="text-AAsecondary"> front-end </span> part here.
+                  This is a site for selling and advertising{" "}
+                  <span className="text-AAsecondary"> wine </span>. I did the
+                  basic <span className="text-AAsecondary"> front-end </span>{" "}
+                  part here.
                 </p>
               </div>
               <ul
@@ -1002,18 +1378,16 @@ export default function SomethingIveBuilt() {
               </ul>
               <div className="z-10 flex fle-row space-x-5 ">
                 <GithubIcon link="https://github.com/topsecretagent008/difiaba" />
-                <a
-                  href=""
-                  target={"_blank"}
-                  rel="noreferrer"
-                >
-                  <ExternalLink url={"https://wineeventsgreece.com/"} router={router} />
+                <a href="" target={"_blank"} rel="noreferrer">
+                  <ExternalLink
+                    url={"https://wineeventsgreece.com/"}
+                    router={router}
+                  />
                 </a>
               </div>
             </div>
           </div>
         </div>
-
         {/* // ? Project 10 */}
         <div
           data-aos="fade-up"
@@ -1079,8 +1453,10 @@ export default function SomethingIveBuilt() {
               </div>
               <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
                 <p className="text-gray-300 md:text-gray-400 text-left md:text-right">
-                  This is an advertising and sales site created to sell <span className="text-AAsecondary">watches</span>.
-                  I focused on basic <span className="text-AAsecondary"> Front-end </span> work here.
+                  This is an advertising and sales site created to sell{" "}
+                  <span className="text-AAsecondary">watches</span>. I focused
+                  on basic <span className="text-AAsecondary"> Front-end </span>{" "}
+                  work here.
                 </p>
               </div>
               <ul
@@ -1094,18 +1470,16 @@ export default function SomethingIveBuilt() {
               </ul>
               <div className="z-10 flex fle-row space-x-5 sm:pt-0 pt-2">
                 <GithubIcon link="https://github.com/topsecretagent008/greubelforsey" />
-                <a
-                  href=""
-                  target={"_blank"}
-                  rel="noreferrer"
-                >
-                  <ExternalLink url={"https://www.greubelforsey.com/en"} router={router} />
+                <a href="" target={"_blank"} rel="noreferrer">
+                  <ExternalLink
+                    url={"https://www.greubelforsey.com/en"}
+                    router={router}
+                  />
                 </a>
               </div>
             </div>
           </div>
         </div>
-
       </div>
     </div>
   );

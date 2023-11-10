@@ -70,9 +70,11 @@ export default function AboutMe(props) {
                 <br className="md:block hidden" />
                 As a{" "}
                 <span className="text-AAsecondary">
-                  senior fullstack developer,
-                </span>{" "}
-                I have full experience in building Web apps and designs.
+                  senior fullstack developer
+                </span>,{" "}
+                I have full experience in building {" "}
+                <span className="text-AAsecondary">
+                BlockChain and Web apps, designs</span>.
               </span>
             </div>
             <div className="font-Header tracking-wide">
@@ -159,7 +161,7 @@ export default function AboutMe(props) {
               <div className="absolute w-full h-full group-hover:opacity-0 bg-AAsecondary opacity-10 duration-300 rounded overflow-hidden"></div>
               <Img
                 src={"/img/image.png"}
-                className={"object-contain rounded-lg"}
+                className={"rounded-lg w-full h-full"}
                 alt="My Image Not Found"
               />
             </div>
@@ -170,7 +172,7 @@ export default function AboutMe(props) {
             <div className="absolute w-48 h-full rounded overflow-hidden">
               <Img
                 src={"/img/image.png"}
-                className={"object-contain rounded-lg"}
+                className={"rounded-lg w-full h-full"}
                 alt="My Image Not Found"
               />
             </div>

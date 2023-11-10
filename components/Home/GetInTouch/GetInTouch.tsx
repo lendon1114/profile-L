@@ -1,5 +1,6 @@
 import React from "react";
 import ArrowIcon from "../../Icons/ArrowIcon";
+import Image from "next/image";
 export default function GetInTouch() {
   return (
     <div
@@ -8,7 +9,7 @@ export default function GetInTouch() {
       className="flex flex-col space-y-4 w-full h-96 items-center bg-AAprimary"
     >
       <div className="absolute w-full h-full">
-        <img src="/img/fly1.png" alt="bgimg" className="w-full h-full" />
+        <Image src="/img/fly1.png" alt="bgimg" width={100} height={100} />
       </div>
       {/* // ? Title === > What's Next?  */}
       <div className="flex flex-row items-center ">

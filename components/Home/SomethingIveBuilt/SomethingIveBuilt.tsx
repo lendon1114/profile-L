@@ -276,7 +276,7 @@ export default function SomethingIveBuilt() {
                     mobile and computer games
                   </span>
                   based on the play and watch-to earn method with the
-                  opportunity to earn the company's main token -{" "}
+                  opportunity to earn the company is main token -
                   <span className="text-AAsecondary">LOGG Token</span>, the
                   first multiplier of games with visual integration of ad units.
                   I performed the{" "}

@@ -59,7 +59,7 @@ export default function Home() {
   const meta = {
     title: "Lendon Bracewell ",
     description: `I am a professional full-stack BlockChain and Web3 developer with over 7 years of development experience. If you are interested in developing these products, please contact us.`,
-    image: "/titofCercle.png",
+    image: "/ProfileLogo.png",
     type: "website",
   };
 

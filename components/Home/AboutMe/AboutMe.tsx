@@ -83,7 +83,7 @@ export default function AboutMe(props) {
                 provide excellent{" "}
                 <span className="text-AAsecondary">programming skills,</span>{" "}
                 effective{" "}
-                <span className="text-AAsecondary">scommunication skills</span>{" "}
+                <span className="text-AAsecondary">communication skills</span>{" "}
                 and high quality product.
               </span>
               <br className="md:block hidden" />

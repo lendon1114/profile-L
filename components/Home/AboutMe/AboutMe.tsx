@@ -1,10 +1,53 @@
-import React, { CSSProperties } from "react";
+import React, { useState, useEffect, CSSProperties } from "react";
 import Img from "../../../components/smallComp/image/Img";
 import ArrowIcon from "../../../components/Icons/ArrowIcon";
 
 export interface MyCustomCSS extends CSSProperties {
   "--i": number;
 }
+
+export const useCurrentDateTime = (timeZone) => {
+  const [currentDateTime, setCurrentDateTime] = useState({
+    date: "",
+    time: "",
+    month: "",
+  });
+
+  useEffect(() => {
+    const fetchCurrentDateTime = async () => {
+      try {
+        const formatter = new Intl.DateTimeFormat([], {
+          hour: "numeric",
+          minute: "numeric",
+          second: "numeric",
+          year: "numeric",
+          month: "long",
+          day: "numeric",
+          timeZone: timeZone,
+        });
+        const currentDate = formatter.format(new Date());
+        const currentTime = formatter
+          .formatToParts(new Date())
+          .find((part) => part.type === "hour").value;
+        const currentMonth = formatter
+          .formatToParts(new Date())
+          .find((part) => part.type === "month").value;
+
+        setCurrentDateTime({
+          date: currentDate,
+          time: currentTime,
+          month: currentMonth,
+        });
+      } catch (error) {
+        console.error("Error fetching current DateTime:", error);
+      }
+    };
+
+    fetchCurrentDateTime();
+  }, [timeZone]);
+
+  return currentDateTime;
+};
 
 export default function AboutMe(props) {
   const technologies = [
@@ -36,6 +79,12 @@ export default function AboutMe(props) {
       "Django",
     ],
   ];
+
+  const { date, time, month } = useCurrentDateTime("Europe/Luxembourg");
+
+  console.log("time", time.toString());
+  console.log("time", month.toString());
+
   return (
     <div
       id="aboutSection"
@@ -166,11 +215,19 @@ export default function AboutMe(props) {
 
             <div className="absolute w-5/6 h-5/6  rounded overflow-hidden">
               <div className="absolute w-full h-full group-hover:opacity-0 bg-AAsecondary opacity-10 duration-300 rounded overflow-hidden"></div>
-              <Img
-                src={"/img/image.png"}
-                className={"rounded-lg w-full h-full"}
-                alt="My Image Not Found"
-              />
+              {Number(time.toString()) > 8 && Number(time.toString()) < 19 ? (
+                <Img
+                  src={"/img/image.png"}
+                  className={"rounded-lg w-full h-full bg-white"}
+                  alt="My Image Not Found"
+                />
+              ) : (
+                <Img
+                  src={"/img/image.png"}
+                  className={"rounded-lg w-full h-full bg-black"}
+                  alt="My Image Not Found"
+                />
+              )}
             </div>
 
             <div className="hidden md:flex flex-col w-full  absolute bottom-0">
@@ -268,7 +325,7 @@ export default function AboutMe(props) {
                     height={50}
                     style={{ "--i": 11 } as MyCustomCSS}
                   />
-                  
+
                   <img
                     className="z-[3] top-6 right-80  object-cover absolute"
                     src="/tokenImage/stack (13).png"
@@ -277,7 +334,7 @@ export default function AboutMe(props) {
                     height={70}
                     style={{ "--i": 12 } as MyCustomCSS}
                   />
-                  
+
                   <img
                     className="z-[3] top-10 right-0  object-cover absolute"
                     src="/tokenImage/stack (14).png"
@@ -286,7 +343,7 @@ export default function AboutMe(props) {
                     height={60}
                     style={{ "--i": 13 } as MyCustomCSS}
                   />
-                  
+
                   <img
                     className="z-[3] top-28 right-4  object-cover absolute"
                     src="/tokenImage/stack (16).png"
@@ -295,7 +352,7 @@ export default function AboutMe(props) {
                     height={60}
                     style={{ "--i": 14 } as MyCustomCSS}
                   />
-                  
+
                   <img
                     className="z-[3] top-56 right-28  object-cover absolute"
                     src="/tokenImage/stack (18).png"
@@ -304,7 +361,7 @@ export default function AboutMe(props) {
                     height={70}
                     style={{ "--i": 15 } as MyCustomCSS}
                   />
-                  
+
                   <img
                     className="z-[3] top-10 right-36  object-cover absolute"
                     src="/tokenImage/stack (19).png"

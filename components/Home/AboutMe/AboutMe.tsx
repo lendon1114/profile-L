@@ -1,6 +1,11 @@
-import React from "react";
+import React, { CSSProperties } from "react";
 import Img from "../../../components/smallComp/image/Img";
 import ArrowIcon from "../../../components/Icons/ArrowIcon";
+
+export interface MyCustomCSS extends CSSProperties {
+  "--i": number;
+}
+
 export default function AboutMe(props) {
   const technologies = [
     [
@@ -65,16 +70,18 @@ export default function AboutMe(props) {
           <div className="w-full md:w-7/12 space-y-4 sm:text-base text-sm ">
             <div className="font-Header ">
               <span className="text-gray-400  tracking-wide">
-                Hello! My name is Lendon Bracewell and I enjoy solving problems and
-                creating codes that live on the internet.
+                Hello! My name is Lendon Bracewell and I enjoy solving problems
+                and creating codes that live on the internet.
                 <br className="md:block hidden" />
                 As a{" "}
                 <span className="text-AAsecondary">
                   senior fullstack developer
-                </span>,{" "}
-                I have full experience in building {" "}
+                </span>
+                , I have full experience in building{" "}
                 <span className="text-AAsecondary">
-                BlockChain and Web apps, designs</span>.
+                  BlockChain and Web apps, designs
+                </span>
+                .
               </span>
             </div>
             <div className="font-Header tracking-wide">
@@ -164,6 +171,150 @@ export default function AboutMe(props) {
                 className={"rounded-lg w-full h-full"}
                 alt="My Image Not Found"
               />
+            </div>
+
+            <div className="hidden md:flex flex-col w-full  absolute bottom-0">
+              <div className="relative px-3 flex-none justify-center w-full block">
+                <div className="coin mx-auto">
+                  <img
+                    className="z-[3] top-24 right-0  3xs:right-5 2xs:right-8 md:right-20  object-cover absolute coin-img"
+                    src="/tokenImage/stack (8).png"
+                    alt="stack (8) pannel"
+                    width={80}
+                    height={80}
+                    style={{ "--i": 1 } as MyCustomCSS}
+                  />
+                  <img
+                    className="z-[3] top-0 right-10 3.5xs:right-16 3xs:right-24 2xs:right-28 md:right-48 object-cover absolute"
+                    src="/tokenImage/stack (2).png"
+                    alt="stack (2) pannel"
+                    width={50}
+                    height={50}
+                    style={{ "--i": 2 } as MyCustomCSS}
+                  />
+                  <img
+                    className="z-[3] top-32 right-36 3.5xs:right-40 3xs:right-52 2xs:right-56 md:right-72 object-cover absolute"
+                    src="/tokenImage/stack (3).png"
+                    alt="stack (3) pannel"
+                    width={60}
+                    height={60}
+                    style={{ "--i": 3 } as MyCustomCSS}
+                  />
+                  <img
+                    className="z-[3] top-60 right-14 3.5xs:right-20 3xs:right-28 2xs:right-32 md:right-48  object-cover absolute"
+                    src="/tokenImage/stack (4).png"
+                    alt="stack (4) pannel"
+                    width={60}
+                    height={60}
+                    style={{ "--i": 4 } as MyCustomCSS}
+                  />
+
+                  <img
+                    className="z-[3] top-40 right-40  object-cover absolute"
+                    src="/tokenImage/stack (5).png"
+                    alt="stack (5) pannel"
+                    width={70}
+                    height={70}
+                    style={{ "--i": 5 } as MyCustomCSS}
+                  />
+                  <img
+                    className="z-[3] top-3 right-20  object-cover absolute"
+                    src="/tokenImage/stack (6).png"
+                    alt="stack (6) pannel"
+                    width={70}
+                    height={70}
+                    style={{ "--i": 6 } as MyCustomCSS}
+                  />
+
+                  <img
+                    className="z-[3] top-24 right-52 object-cover absolute"
+                    src="/tokenImage/stack (7).png"
+                    alt="stack (7) pannel"
+                    width={60}
+                    height={60}
+                    style={{ "--i": 7 } as MyCustomCSS}
+                  />
+
+                  <img
+                    className="z-[3] top-44 right-60  object-cover absolute"
+                    src="/tokenImage/stack (9).png"
+                    alt="stack (9) pannel"
+                    width={60}
+                    height={60}
+                    style={{ "--i": 8 } as MyCustomCSS}
+                  />
+                  <img
+                    className="z-[3] top-56 right-68  object-cover absolute"
+                    src="/tokenImage/stack (10).png"
+                    alt="stack (10) pannel"
+                    width={60}
+                    height={60}
+                    style={{ "--i": 9 } as MyCustomCSS}
+                  />
+
+                  <img
+                    className="z-[3] top-52 right-10  object-cover absolute"
+                    src="/tokenImage/stack (11).png"
+                    alt="stack (11) pannel"
+                    width={70}
+                    height={70}
+                    style={{ "--i": 10 } as MyCustomCSS}
+                  />
+                  <img
+                    className="z-[3] top-4 right-64  object-cover absolute"
+                    src="/tokenImage/stack (12).png"
+                    alt="stack (12) pannel"
+                    width={50}
+                    height={50}
+                    style={{ "--i": 11 } as MyCustomCSS}
+                  />
+                  
+                  <img
+                    className="z-[3] top-6 right-80  object-cover absolute"
+                    src="/tokenImage/stack (13).png"
+                    alt="stack (13) pannel"
+                    width={70}
+                    height={70}
+                    style={{ "--i": 12 } as MyCustomCSS}
+                  />
+                  
+                  <img
+                    className="z-[3] top-10 right-0  object-cover absolute"
+                    src="/tokenImage/stack (14).png"
+                    alt="stack (14) pannel"
+                    width={60}
+                    height={60}
+                    style={{ "--i": 13 } as MyCustomCSS}
+                  />
+                  
+                  <img
+                    className="z-[3] top-28 right-4  object-cover absolute"
+                    src="/tokenImage/stack (16).png"
+                    alt="stack (16) pannel"
+                    width={60}
+                    height={60}
+                    style={{ "--i": 14 } as MyCustomCSS}
+                  />
+                  
+                  <img
+                    className="z-[3] top-56 right-28  object-cover absolute"
+                    src="/tokenImage/stack (18).png"
+                    alt="stack (18) pannel"
+                    width={70}
+                    height={70}
+                    style={{ "--i": 15 } as MyCustomCSS}
+                  />
+                  
+                  <img
+                    className="z-[3] top-10 right-36  object-cover absolute"
+                    src="/tokenImage/stack (19).png"
+                    alt="stack (19) pannel"
+                    width={50}
+                    height={50}
+                    style={{ "--i": 16 } as MyCustomCSS}
+                  />
+                </div>
+              </div>
             </div>
           </div>
           {/* // ?Image in Mobile */}

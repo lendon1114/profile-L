@@ -263,7 +263,7 @@ export default function SomethingIveBuilt() {
                 </span>
                 <Link href={"https://https://flip.baby/"}>
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
-                    Filp Baby
+                    Flip Baby
                   </span>
                 </Link>
               </div>

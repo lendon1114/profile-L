@@ -13,6 +13,14 @@ import AppContext from "../components/AppContextFolder/AppContext";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import Head from "next/head";
+
+declare global {
+  interface Window {
+    dataLayer: any[];
+    gtag: (...args: any[]) => void;
+  }
+}
+
 export default function Home() {
   const [ShowElement, setShowElement] = useState(false);
   const [ShowThisCantBeReached, setShowThisCantBeReached] = useState(true);
@@ -27,11 +35,24 @@ export default function Home() {
     clearInterval(context.sharedState.userdata.timerCookieRef.current);
     if (typeof window !== "undefined") {
       // remove UserDataPuller project EventListeners
-      window.removeEventListener("resize", context.sharedState.userdata.windowSizeTracker.current);
-      window.removeEventListener("mousemove", context.sharedState.userdata.mousePositionTracker.current, false);
+      window.removeEventListener(
+        "resize",
+        context.sharedState.userdata.windowSizeTracker.current
+      );
+      window.removeEventListener(
+        "mousemove",
+        context.sharedState.userdata.mousePositionTracker.current,
+        false
+      );
       // remove Typing project EventListeners
-      window.removeEventListener("resize", context.sharedState.typing.eventInputLostFocus);
-      document.removeEventListener("keydown", context.sharedState.typing.keyboardEvent);
+      window.removeEventListener(
+        "resize",
+        context.sharedState.typing.eventInputLostFocus
+      );
+      document.removeEventListener(
+        "keydown",
+        context.sharedState.typing.keyboardEvent
+      );
     }
     setTimeout(() => {
       setShowElement(true);
@@ -53,8 +74,6 @@ export default function Home() {
     Aos.init({ duration: 2000, once: true });
   }, []);
 
-
-
   console.log("Portfolio Rendered...");
   const meta = {
     title: "Lendon Bracewell ",
@@ -66,6 +85,19 @@ export default function Home() {
   return (
     <>
       <Head>
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-MQQDN9SDQD"
+        ></script>
+        <script>
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-MQQDN9SDQD');
+          `}
+        </script>
         <title>{meta.title}</title>
         <meta name="robots" content="follow, index" />
         <meta content={meta.description} name="description" />

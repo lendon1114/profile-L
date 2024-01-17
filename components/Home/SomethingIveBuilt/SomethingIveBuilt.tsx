@@ -34,6 +34,288 @@ export default function SomethingIveBuilt() {
       </div>
 
       <div className="flex flex-col space-y-8 md:space-y-28">
+        {/* // ?  Project  2*/}
+        <div
+          data-aos="fade-up"
+          className="relative md:grid md:grid-cols-12 w-full md:h-96 "
+        >
+          {/* Left image */}
+          <div
+            className="hidden bg-AAprimary z-10  py-4 
+          absolute md:grid grid-cols-12 w-full h-full  content-center"
+          >
+            <div className="relative rounded w-full h-full col-span-7 ">
+              <a
+                href={"https://painter.supducks.com/"}
+                target="_blank"
+                rel="noreferrer"
+              >
+                <div
+                  className="absolute w-full h-full rounded bg-AAprimary 
+           transition-opacity opacity-50 hover:opacity-0 hover:cursor-pointer duration-300"
+                ></div>
+              </a>
+
+              <Img
+                src={"/img/supduckspaint.png"}
+                alt={"Project Screen shot"}
+                className={`w-full rounded h-full `}
+              />
+            </div>
+          </div>
+
+          {/* right Content */}
+          <div className=" md:absolute py-4  md:grid md:grid-cols-12 w-full h-full  content-center ">
+            {/* background for text in mobile responsive */}
+            <div className="absolute w-full h-full bg-opacity-70 z-0">
+              <div className="relative w-full h-full">
+                <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
+                <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
+                <Img
+                  src={"/img/supduckspaint.png"}
+                  alt={"Project Screen shot"}
+                  className={`w-full h-full `}
+                />
+              </div>
+            </div>
+
+            <div
+              className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-6 xl:col-start-7 col-start-5 
+            col-span-8 flex flex-col items-start md:items-end space-y-3"
+            >
+              <div className="flex flex-col space-y-1 md:items-end z-10">
+                <span className="text-AAsecondary text-base">
+                  Recent Project
+                </span>
+                <Link href={"https://painter.supducks.com/"}>
+                  <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
+                    SupDucksPaint
+                  </span>
+                </Link>
+              </div>
+              <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
+                <p className="text-gray-300 md:text-gray-400 text-left md:text-right">
+                  <span className="text-AAsecondary">SupDucksPaint</span> is a
+                  project that uses
+                  <span className="text-AAsecondary">Canvas</span> to allow many
+                  users to draw and receive images at the same time or mint as
+                  <span className="text-AAsecondary">NFT</span>. In this
+                  project, several functions, including
+                  <span className="text-AAsecondary">Multi-user</span>, were
+                  successfully completed.
+                  <span className="text-AAsecondary">NFT</span> is supposed to
+                  be minted as a base.
+                </p>
+              </div>
+              <ul
+                className="flex flex-wrap w-full text-gray-300 md:text-gray-400
+               text-sm font-Text2 md:justify-end"
+              >
+                <span className="pr-4 z-10">React</span>
+                <span className="pr-4 z-10">JavaScript</span>
+                <span className="pr-4 z-10">Tailwind CSS</span>
+                <span className="pr-4 z-10">Canvas</span>
+                <span className="pr-4 z-10">Node</span>
+                <span className="pr-4 z-10">Solidity</span>
+                <span className="pr-4 z-10">ERC721</span>
+              </ul>
+              <div className="z-10 flex fle-row space-x-5 ">
+                <GithubIcon link="https://github.com/topsecretagent008/superduck-painter" />
+                <a href="" target={"_blank"} rel="noreferrer">
+                  <ExternalLink
+                    url={"https://painter.supducks.com/"}
+                    router={router}
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* // ?  Project 1 */}
+        <div
+          data-aos="fade-up"
+          className="relative md:grid md:grid-cols-12 w-full md:h-96  "
+        >
+          {/* Left image */}
+          <div
+            className="hidden bg-AAprimary z-10  py-4 
+          absolute md:grid grid-cols-12 w-full h-full  content-center "
+          >
+            <div className="relative rounded w-full h-full col-start-6 col-span-7 ">
+              <a
+                href={
+                  "https://www.figma.com/file/BkmSKtQyM8haOHRqCduFzC/Uni-fy-Design?type=design&mode=design&t=wTROY5D7ySqFyliG-0"
+                }
+                target="_blank"
+                rel="noreferrer"
+              >
+                <div
+                  className="absolute w-full h-full rounded bg-AAprimary 
+           transition-opacity opacity-50 hover:opacity-0 hover:cursor-pointer duration-300"
+                ></div>
+              </a>
+              <Img
+                src={"/img/uni-fu-design.png"}
+                alt={"Project Screen shot"}
+                className={`w-full rounded h-full `}
+              />
+            </div>
+          </div>
+
+          {/* right Content */}
+          <div className=" md:absolute py-4  md:grid md:grid-cols-12 w-full h-full  content-center ">
+            {/* background for text in mobile responsive */}
+            <div className="absolute w-full h-full bg-opacity-70 z-0 md:order-2">
+              <div className="relative w-full h-full">
+                <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
+                <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
+                <Img
+                  src={"/img/uni-fu-design.png"}
+                  alt={"Project Screen shot"}
+                  className={`w-full h-full`}
+                />
+              </div>
+            </div>
+
+            <div
+              className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-6   
+            col-span-8 flex flex-col items-start  space-y-3 md:order-1"
+            >
+              <div className="flex flex-col space-y-1  z-10">
+                <span className="text-AAsecondary text-base">
+                  Recent Project
+                </span>
+                <Link
+                  href={
+                    "https://www.figma.com/file/BkmSKtQyM8haOHRqCduFzC/Uni-fy-Design?type=design&mode=design&t=wTROY5D7ySqFyliG-0"
+                  }
+                >
+                  <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
+                    Unu-fy Design
+                  </span>
+                </Link>
+              </div>
+              <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
+                <p className="text-gray-300 md:text-gray-400 text-left ">
+                  This site is to introduce services. This design was created
+                  with <span className="text-AAsecondary">Figma</span> to update
+                  the site.
+                </p>
+              </div>
+              <ul
+                className="flex flex-wrap w-full text-gray-300 md:text-gray-400
+               text-sm font-Text2 md:justify-start"
+              >
+                <span className="pr-4 z-10">Figma</span>
+              </ul>
+              <div className="z-10 flex fle-row space-x-5 ">
+                <a href="" target={"_blank"} rel="noreferrer">
+                  <ExternalLink
+                    url={
+                      "https://www.figma.com/file/BkmSKtQyM8haOHRqCduFzC/Uni-fy-Design?type=design&mode=design&t=wTROY5D7ySqFyliG-0"
+                    }
+                    router={router}
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* // ?  Project  2*/}
+        <div
+          data-aos="fade-up"
+          className="relative md:grid md:grid-cols-12 w-full md:h-96 "
+        >
+          {/* Left image */}
+          <div
+            className="hidden bg-AAprimary z-10  py-4 
+          absolute md:grid grid-cols-12 w-full h-full  content-center"
+          >
+            <div className="relative rounded w-full h-full col-span-7 ">
+              <a
+                href={
+                  "https://www.figma.com/file/hKkMCxN6cZ7Buw4OP8rO91/Poonts-Staking?type=design&mode=design&t=HfyiWtDshx11SD95-0"
+                }
+                target="_blank"
+                rel="noreferrer"
+              >
+                <div
+                  className="absolute w-full h-full rounded bg-AAprimary 
+           transition-opacity opacity-50 hover:opacity-0 hover:cursor-pointer duration-300"
+                ></div>
+              </a>
+
+              <Img
+                src={"/img/poonts-design.png"}
+                alt={"Project Screen shot"}
+                className={`w-full rounded h-full `}
+              />
+            </div>
+          </div>
+
+          {/* right Content */}
+          <div className=" md:absolute py-4  md:grid md:grid-cols-12 w-full h-full  content-center ">
+            {/* background for text in mobile responsive */}
+            <div className="absolute w-full h-full bg-opacity-70 z-0">
+              <div className="relative w-full h-full">
+                <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
+                <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
+                <Img
+                  src={"/img/poonts-design.png"}
+                  alt={"Project Screen shot"}
+                  className={`w-full h-full `}
+                />
+              </div>
+            </div>
+
+            <div
+              className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-6 xl:col-start-7 col-start-5 
+            col-span-8 flex flex-col items-start md:items-end space-y-3"
+            >
+              <div className="flex flex-col space-y-1 md:items-end z-10">
+                <span className="text-AAsecondary text-base">
+                  Recent Project
+                </span>
+                <Link
+                  href={
+                    "https://www.figma.com/file/hKkMCxN6cZ7Buw4OP8rO91/Poonts-Staking?type=design&mode=design&t=HfyiWtDshx11SD95-0"
+                  }
+                >
+                  <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
+                    Poonts Design
+                  </span>
+                </Link>
+              </div>
+              <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
+                <p className="text-gray-300 md:text-gray-400 text-left md:text-right">
+                  This is a staking site for
+                  <span className="text-AAsecondary">Poonts NFT</span>. Made in
+                  a format similar to
+                  <span className="text-AAsecondary">FaceBook</span>.
+                </p>
+              </div>
+              <ul
+                className="flex flex-wrap w-full text-gray-300 md:text-gray-400
+               text-sm font-Text2 md:justify-end"
+              >
+                <span className="pr-4 z-10">Figma</span>
+              </ul>
+              <div className="z-10 flex fle-row space-x-5 ">
+                <a href="" target={"_blank"} rel="noreferrer">
+                  <ExternalLink
+                    url={
+                      "https://www.figma.com/file/hKkMCxN6cZ7Buw4OP8rO91/Poonts-Staking?type=design&mode=design&t=HfyiWtDshx11SD95-0"
+                    }
+                    router={router}
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
         {/* // ?  Project 1 */}
         <div
           data-aos="fade-up"
@@ -1567,7 +1849,6 @@ export default function SomethingIveBuilt() {
             </div>
           </div>
         </div>
-        
       </div>
     </div>
   );

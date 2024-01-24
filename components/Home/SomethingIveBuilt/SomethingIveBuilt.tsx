@@ -107,7 +107,7 @@ export default function SomethingIveBuilt() {
                   <span className="text-AAsecondary">
                     Human, Lunarian, Giant, Fishman, and Mink.
                   </span>{" "}
-                  This is the site's
+                  This is the sites
                   <span className="text-AAsecondary">Figma design.</span>
                 </p>
               </div>

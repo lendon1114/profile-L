@@ -77,7 +77,7 @@ export default function Home() {
   console.log("Portfolio Rendered...");
   const meta = {
     title: "Lendon Bracewell ",
-    description: `I am a professional full-stack BlockChain and Web3 developer with over 7 years of development experience. If you are interested in developing these products, please contact us.`,
+    description: `I am a professional full-stack BlockChain and web2, Web3 developer and web designer with over 8 years of development experience. If you are interested in developing these products, please contact us.`,
     image: "/ProfileLogo.png",
     type: "website",
   };

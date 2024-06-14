@@ -57,7 +57,7 @@ export default function SomethingIveBuilt() {
            transition-opacity opacity-50 hover:opacity-0 hover:cursor-pointer duration-300"
                 ></div>
               </a>
-              <Img
+              <img
                 src={"/img/GK-design.png"}
                 alt={"Project Screen shot"}
                 className={`w-full rounded h-full `}
@@ -72,7 +72,7 @@ export default function SomethingIveBuilt() {
               <div className="relative w-full h-full">
                 <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
                 <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
-                <Img
+                <img
                   src={"/img/GK-design.png"}
                   alt={"Project Screen shot"}
                   className={`w-full h-full`}
@@ -153,7 +153,7 @@ export default function SomethingIveBuilt() {
                 ></div>
               </a>
 
-              <Img
+              <img
                 src={"/img/supduckspaint.png"}
                 alt={"Project Screen shot"}
                 className={`w-full rounded h-full `}
@@ -168,7 +168,7 @@ export default function SomethingIveBuilt() {
               <div className="relative w-full h-full">
                 <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
                 <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
-                <Img
+                <img
                   src={"/img/supduckspaint.png"}
                   alt={"Project Screen shot"}
                   className={`w-full h-full `}
@@ -252,7 +252,7 @@ export default function SomethingIveBuilt() {
            transition-opacity opacity-50 hover:opacity-0 hover:cursor-pointer duration-300"
                 ></div>
               </a>
-              <Img
+              <img
                 src={"/img/uni-fu-design.png"}
                 alt={"Project Screen shot"}
                 className={`w-full rounded h-full `}
@@ -267,7 +267,7 @@ export default function SomethingIveBuilt() {
               <div className="relative w-full h-full">
                 <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
                 <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
-                <Img
+                <img
                   src={"/img/uni-fu-design.png"}
                   alt={"Project Screen shot"}
                   className={`w-full h-full`}
@@ -344,7 +344,7 @@ export default function SomethingIveBuilt() {
                 ></div>
               </a>
 
-              <Img
+              <img
                 src={"/img/poonts-design.png"}
                 alt={"Project Screen shot"}
                 className={`w-full rounded h-full `}
@@ -359,7 +359,7 @@ export default function SomethingIveBuilt() {
               <div className="relative w-full h-full">
                 <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
                 <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
-                <Img
+                <img
                   src={"/img/poonts-design.png"}
                   alt={"Project Screen shot"}
                   className={`w-full h-full `}
@@ -434,7 +434,7 @@ export default function SomethingIveBuilt() {
            transition-opacity opacity-50 hover:opacity-0 hover:cursor-pointer duration-300"
                 ></div>
               </a>
-              <Img
+              <img
                 src={"/img/Yini-mint.png"}
                 alt={"Project Screen shot"}
                 className={`w-full rounded h-full `}
@@ -449,7 +449,7 @@ export default function SomethingIveBuilt() {
               <div className="relative w-full h-full">
                 <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
                 <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
-                <Img
+                <img
                   src={"/img/Yini-mint.png"}
                   alt={"Project Screen shot"}
                   className={`w-full h-full`}
@@ -526,7 +526,7 @@ export default function SomethingIveBuilt() {
                 ></div>
               </a>
 
-              <Img
+              <img
                 src={"/img/purechain capital.png"}
                 alt={"Project Screen shot"}
                 className={`w-full rounded h-full `}
@@ -541,7 +541,7 @@ export default function SomethingIveBuilt() {
               <div className="relative w-full h-full">
                 <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
                 <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
-                <Img
+                <img
                   src={"/img/purechain capital.png"}
                   alt={"Project Screen shot"}
                   className={`w-full h-full `}
@@ -612,7 +612,7 @@ export default function SomethingIveBuilt() {
            transition-opacity opacity-50 hover:opacity-0 hover:cursor-pointer duration-300"
                 ></div>
               </a>
-              <Img
+              <img
                 src={"/img/dotbet.png"}
                 alt={"Project Screen shot"}
                 className={`w-full rounded h-full `}
@@ -627,7 +627,7 @@ export default function SomethingIveBuilt() {
               <div className="relative w-full h-full">
                 <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
                 <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
-                <Img
+                <img
                   src={"/img/dotbet.png"}
                   alt={"Project Screen shot"}
                   className={`w-full h-full`}
@@ -700,7 +700,7 @@ export default function SomethingIveBuilt() {
            transition-opacity opacity-50 hover:opacity-0 hover:cursor-pointer duration-300"
                 ></div>
               </a>
-              <Img
+              <img
                 src={"/img/greubelforsey.png"}
                 alt={"Project Screen shot"}
                 className={`w-full rounded h-full `}
@@ -715,7 +715,7 @@ export default function SomethingIveBuilt() {
               <div className="relative w-full h-full">
                 <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
                 <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
-                <Img
+                <img
                   src={"/img/greubelforsey.png"}
                   alt={"Project Screen shot"}
                   className={`w-full h-full `}
@@ -791,7 +791,7 @@ export default function SomethingIveBuilt() {
            transition-opacity opacity-50 hover:opacity-0 hover:cursor-pointer duration-300"
                 ></div>
               </a>
-              <Img
+              <img
                 src={"/img/ddd.png"}
                 alt={"Project Screen shot"}
                 className={`w-full rounded h-full `}
@@ -806,7 +806,7 @@ export default function SomethingIveBuilt() {
               <div className="relative w-full h-full">
                 <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
                 <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
-                <Img
+                <img
                   src={"/img/ddd.png"}
                   alt={"Project Screen shot"}
                   className={`w-full h-full`}
@@ -888,7 +888,7 @@ export default function SomethingIveBuilt() {
                 ></div>
               </a>
 
-              <Img
+              <img
                 src={"/img/morts.png"}
                 alt={"Project Screen shot"}
                 className={`w-full rounded h-full `}
@@ -903,7 +903,7 @@ export default function SomethingIveBuilt() {
               <div className="relative w-full h-full">
                 <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
                 <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
-                <Img
+                <img
                   src={"/img/morts.png"}
                   alt={"Project Screen shot"}
                   className={`w-full h-full `}
@@ -975,7 +975,7 @@ export default function SomethingIveBuilt() {
            transition-opacity opacity-50 hover:opacity-0 hover:cursor-pointer duration-300"
                 ></div>
               </a>
-              <Img
+              <img
                 src={"/img/Spwallet.png"}
                 alt={"Project Screen shot"}
                 className={`w-full rounded h-full `}
@@ -990,7 +990,7 @@ export default function SomethingIveBuilt() {
               <div className="relative w-full h-full">
                 <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
                 <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
-                <Img
+                <img
                   src={"/img/Spwallet.png"}
                   alt={"Project Screen shot"}
                   className={`w-full h-full`}
@@ -1069,7 +1069,7 @@ export default function SomethingIveBuilt() {
                 ></div>
               </a>
 
-              <Img
+              <img
                 src={"/img/Uzyth.png"}
                 alt={"Project Screen shot"}
                 className={`w-full rounded h-full `}
@@ -1084,7 +1084,7 @@ export default function SomethingIveBuilt() {
               <div className="relative w-full h-full">
                 <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
                 <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
-                <Img
+                <img
                   src={"/img/Uzyth.png"}
                   alt={"Project Screen shot"}
                   className={`w-full h-full `}
@@ -1162,7 +1162,7 @@ export default function SomethingIveBuilt() {
            transition-opacity opacity-20 hover:opacity-0 hover:cursor-pointer duration-300"
                 ></div>
               </Link>
-              <Img
+              <img
                 src={"/img/AI Chatbot.png"}
                 alt={"Project Screen shot"}
                 className={`w-full rounded h-full `}
@@ -1176,7 +1176,7 @@ export default function SomethingIveBuilt() {
               <div className="relative w-full h-full">
                 <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
                 <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
-                <Img
+                <img
                   src={"/img/AI Chatbot.png"}
                   alt={"Project Screen shot"}
                   className={`w-full h-full`}
@@ -1253,7 +1253,7 @@ export default function SomethingIveBuilt() {
            transition-opacity opacity-50 hover:opacity-0 hover:cursor-pointer duration-300"
                 ></div>
               </a>
-              <Img
+              <img
                 src={"/img/WLF.png"}
                 alt={"Project Screen shot"}
                 className={`w-full rounded h-full `}
@@ -1268,7 +1268,7 @@ export default function SomethingIveBuilt() {
               <div className="relative w-full h-full">
                 <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
                 <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
-                <Img
+                <img
                   src={"/img/WLF.png"}
                   alt={"Project Screen shot"}
                   className={`w-full h-full `}
@@ -1334,7 +1334,7 @@ export default function SomethingIveBuilt() {
            transition-opacity opacity-20 hover:opacity-0 hover:cursor-pointer duration-300"
                 ></div>
               </Link>
-              <Img
+              <img
                 src={"/img/Unjabbed.png"}
                 alt={"Project Screen shot"}
                 className={`w-full rounded h-full `}
@@ -1348,7 +1348,7 @@ export default function SomethingIveBuilt() {
               <div className="relative w-full h-full">
                 <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
                 <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
-                <Img
+                <img
                   src={"/img/Unjabbed.png"}
                   alt={"Project Screen shot"}
                   className={`w-full h-full`}
@@ -1424,7 +1424,7 @@ export default function SomethingIveBuilt() {
            transition-opacity opacity-50 hover:opacity-0 hover:cursor-pointer duration-300"
                 ></div>
               </a>
-              <Img
+              <img
                 src={"/img/Mobile app.png"}
                 alt={"Project Screen shot"}
                 className={`w-full rounded h-full `}
@@ -1439,7 +1439,7 @@ export default function SomethingIveBuilt() {
               <div className="relative w-full h-full">
                 <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
                 <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
-                <Img
+                <img
                   src={"/img/Mobile app.png"}
                   alt={"Project Screen shot"}
                   className={`w-full h-full `}
@@ -1515,7 +1515,7 @@ export default function SomethingIveBuilt() {
            transition-opacity opacity-20 hover:opacity-0 hover:cursor-pointer duration-300"
                 ></div>
               </Link>
-              <Img
+              <img
                 src={"/img/Difiaba.png"}
                 alt={"Project Screen shot"}
                 className={`w-full rounded h-full `}
@@ -1529,7 +1529,7 @@ export default function SomethingIveBuilt() {
               <div className="relative w-full h-full">
                 <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
                 <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
-                <Img
+                <img
                   src={"/img/Difiaba.png"}
                   alt={"Project Screen shot"}
                   className={`w-full h-full`}
@@ -1605,7 +1605,7 @@ export default function SomethingIveBuilt() {
            transition-opacity opacity-50 hover:opacity-0 hover:cursor-pointer duration-300"
                 ></div>
               </a>
-              <Img
+              <img
                 src={"/img/Forever voice.png"}
                 alt={"Project Screen shot"}
                 className={`w-full rounded h-full `}
@@ -1620,7 +1620,7 @@ export default function SomethingIveBuilt() {
               <div className="relative w-full h-full">
                 <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
                 <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
-                <Img
+                <img
                   src={"/img/Forever voice.png"}
                   alt={"Project Screen shot"}
                   className={`w-full h-full `}
@@ -1697,7 +1697,7 @@ export default function SomethingIveBuilt() {
            transition-opacity opacity-20 hover:opacity-0 hover:cursor-pointer duration-300"
                 ></div>
               </Link>
-              <Img
+              <img
                 src={"/img/Uber VFX.png"}
                 alt={"Project Screen shot"}
                 className={`w-full rounded h-full `}
@@ -1711,7 +1711,7 @@ export default function SomethingIveBuilt() {
               <div className="relative w-full h-full">
                 <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
                 <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
-                <Img
+                <img
                   src={"/img/Uber VFX.png"}
                   alt={"Project Screen shot"}
                   className={`w-full h-full`}
@@ -1784,7 +1784,7 @@ export default function SomethingIveBuilt() {
            transition-opacity opacity-50 hover:opacity-0 hover:cursor-pointer duration-300"
                 ></div>
               </a>
-              <Img
+              <img
                 src={"/img/Workplace app.png"}
                 alt={"Project Screen shot"}
                 className={`w-full rounded h-full `}
@@ -1799,7 +1799,7 @@ export default function SomethingIveBuilt() {
               <div className="relative w-full h-full">
                 <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
                 <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
-                <Img
+                <img
                   src={"/img/Workplace app.png"}
                   alt={"Project Screen shot"}
                   className={`w-full h-full `}
@@ -1881,7 +1881,7 @@ export default function SomethingIveBuilt() {
            transition-opacity opacity-20 hover:opacity-0 hover:cursor-pointer duration-300"
                 ></div>
               </Link>
-              <Img
+              <img
                 src={"/img/WineEvents.png"}
                 alt={"Project Screen shot"}
                 className={`w-full rounded h-full `}
@@ -1895,7 +1895,7 @@ export default function SomethingIveBuilt() {
               <div className="relative w-full h-full">
                 <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
                 <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
-                <Img
+                <img
                   src={"/img/WineEvents.png"}
                   alt={"Project Screen shot"}
                   className={`w-full h-full`}

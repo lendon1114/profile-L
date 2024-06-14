@@ -230,7 +230,7 @@ export default function AboutMe(props) {
                 />
               )}
             </div>
-
+            {/* 
             <div className="hidden md:flex flex-col w-full  absolute bottom-0">
               <div className="relative px-3 flex-none justify-center w-full block">
                 <div className="coin mx-auto">
@@ -373,7 +373,7 @@ export default function AboutMe(props) {
                   />
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
           {/* // ?Image in Mobile */}
           <div className=" relative w-full h-48 md:hidden  flex justify-center items-center">

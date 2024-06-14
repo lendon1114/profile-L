@@ -217,7 +217,7 @@ export default function SomethingIveBuilt() {
                 <span className="pr-4 z-10">ERC721</span>
               </ul>
               <div className="z-10 flex fle-row space-x-5 ">
-                <GithubIcon link="https://github.com/topsecretagent008/superduck-painter" />
+                <GithubIcon link="https://github.com/lendon1114/superduck-painter" />
                 <a href="" target={"_blank"} rel="noreferrer">
                   <ExternalLink
                     url={"https://painter.supducks.com/"}
@@ -493,7 +493,7 @@ export default function SomethingIveBuilt() {
                 <span className="pr-4 z-10">✔SmartContract</span>
               </ul>
               <div className="z-10 flex fle-row space-x-5 ">
-                <GithubIcon link="https://github.com/topsecretagent008/LOGARITHM-GAMES-MintNFT" />
+                <GithubIcon link="https://github.com/lendon1114/LOGARITHM-GAMES-MintNFT" />
                 <a href="" target={"_blank"} rel="noreferrer">
                   <ExternalLink
                     url={"https://yini-marketplace.vercel.app/"}
@@ -584,7 +584,7 @@ export default function SomethingIveBuilt() {
                 <span className="pr-4 z-10">Tailwind CSS</span>
               </ul>
               <div className="z-10 flex fle-row space-x-5 ">
-                <GithubIcon link="https://github.com/topsecretagent008/Purechain-Capitall-FR" />
+                <GithubIcon link="https://github.com/lendon1114/Purechain-Capitall-FR" />
                 <a href="" target={"_blank"} rel="noreferrer">
                   <ExternalLink
                     url={"https://pure-chain-capital-demo.vercel.app/"}
@@ -670,7 +670,7 @@ export default function SomethingIveBuilt() {
                 <span className="pr-4 z-10">✔English</span>
               </ul>
               <div className="z-10 flex fle-row space-x-5 ">
-                <GithubIcon link="https://github.com/topsecretagent008/dotbet-FE" />
+                <GithubIcon link="https://github.com/lendon1114/dotbet-FE" />
                 <a href="" target={"_blank"} rel="noreferrer">
                   <ExternalLink url={"https://dotbet.io/"} router={router} />
                 </a>
@@ -759,7 +759,7 @@ export default function SomethingIveBuilt() {
                 <span className="pr-4 z-10">Tailwind CSS</span>
               </ul>
               <div className="z-10 flex fle-row space-x-5 sm:pt-0 pt-2">
-                <GithubIcon link="https://github.com/topsecretagent008/greubelforsey" />
+                <GithubIcon link="https://github.com/lendon1114/greubelforsey" />
                 <a href="" target={"_blank"} rel="noreferrer">
                   <ExternalLink
                     url={"https://www.greubelforsey.com/en"}
@@ -855,7 +855,7 @@ export default function SomethingIveBuilt() {
                 <span className="pr-4 z-10">✔JQuery</span>
               </ul>
               <div className="z-10 flex fle-row space-x-5 ">
-                <GithubIcon link="https://github.com/topsecretagent008/logarithm-games" />
+                <GithubIcon link="https://github.com/lendon1114/logarithm-games" />
                 <a href="" target={"_blank"} rel="noreferrer">
                   <ExternalLink
                     url={"https://logarithm-games.vercel.app/"}
@@ -946,7 +946,7 @@ export default function SomethingIveBuilt() {
                 <span className="pr-4 z-10">Back-end</span>
               </ul>
               <div className="z-10 flex fle-row space-x-5 ">
-                <GithubIcon link="https://github.com/topsecretagent008/morts-front" />
+                <GithubIcon link="https://github.com/lendon1114/morts-front" />
                 <a href="" target={"_blank"} rel="noreferrer">
                   <ExternalLink url={"https://morts.design/"} router={router} />
                 </a>
@@ -1036,7 +1036,7 @@ export default function SomethingIveBuilt() {
                 <span className="pr-4 z-10">✔English</span>
               </ul>
               <div className="z-10 flex fle-row space-x-5 ">
-                <GithubIcon link="https://github.com/topsecretagent008/Taxi-betting-game-frontendfbdfd" />
+                <GithubIcon link="https://github.com/lendon1114/Taxi-betting-game-frontendfbdfd" />
                 <a href="" target={"_blank"} rel="noreferrer">
                   <ExternalLink
                     url={"https://spwallet.tokery.io/"}
@@ -1130,7 +1130,7 @@ export default function SomethingIveBuilt() {
                 <span className="pr-4 z-10">TypeScript</span>
               </ul>
               <div className="z-10 flex fle-row space-x-5 ">
-                <GithubIcon link="https://github.com/topsecretagent008/Red-devil-FE-next-tailwind-" />
+                <GithubIcon link="https://github.com/lendon1114/Red-devil-FE-next-tailwind-" />
                 <a href="" target={"_blank"} rel="noreferrer">
                   <ExternalLink
                     url={"https://www.uzyth.com/"}
@@ -1309,7 +1309,7 @@ export default function SomethingIveBuilt() {
                 <span className="pr-4 z-10">Tailwind CSS</span>
               </ul>
               <div className="z-10 flex fle-row space-x-5 sm:pt-0 pt-2">
-                <GithubIcon link="https://github.com/topsecretagent008/NFT-mint" />
+                <GithubIcon link="https://github.com/lendon1114/NFT-mint" />
                 <a href="" target={"_blank"} rel="noreferrer">
                   <ExternalLink url={"https://0xwlf.io/"} router={router} />
                 </a>
@@ -1391,7 +1391,7 @@ export default function SomethingIveBuilt() {
                 <span className="pr-4 z-10">Firebase</span>
               </ul>
               <div className="z-10 flex fle-row space-x-5 ">
-                <GithubIcon link="https://github.com/topsecretagent008/Dating-ui" />
+                <GithubIcon link="https://github.com/lendon1114/Dating-ui" />
                 <a href="" target={"_blank"} rel="noreferrer">
                   <ExternalLink
                     url={"https://unjabbed.vercel.app/"}
@@ -1572,7 +1572,7 @@ export default function SomethingIveBuilt() {
                 <span className="pr-4 z-10">MySQL</span>
               </ul>
               <div className="z-10 flex fle-row space-x-5 ">
-                <GithubIcon link="https://github.com/topsecretagent008/difiaba" />
+                <GithubIcon link="https://github.com/lendon1114/difiaba" />
                 <a href="" target={"_blank"} rel="noreferrer">
                   <ExternalLink
                     url={"https://www.difiaba.com/"}
@@ -1669,7 +1669,7 @@ export default function SomethingIveBuilt() {
                 <span className="pr-4 z-10">Tailwind CSS</span>
               </ul>
               <div className="z-10 flex fle-row space-x-5 sm:pt-0 pt-2">
-                <GithubIcon link="https://github.com/topsecretagent008/forevervoices" />
+                <GithubIcon link="https://github.com/lendon1114/forevervoices" />
                 <a href="" target={"_blank"} rel="noreferrer">
                   <ExternalLink
                     url={"https://forevervoices.com/"}
@@ -1751,7 +1751,7 @@ export default function SomethingIveBuilt() {
                 <span className="pr-4 z-10">API</span>
               </ul>
               <div className="z-10 flex fle-row space-x-5 ">
-                <GithubIcon link="https://github.com/topsecretagent008/ubervfx" />
+                <GithubIcon link="https://github.com/lendon1114/ubervfx" />
                 <a href="" target={"_blank"} rel="noreferrer">
                   <ExternalLink
                     url={"https://www.ubervfx.com/"}
@@ -1853,7 +1853,7 @@ export default function SomethingIveBuilt() {
                 <span className="pr-4 z-10">Tailwind CSS</span>
               </ul>
               <div className="z-10 flex fle-row space-x-5 sm:pt-0 pt-2">
-                <GithubIcon link="https://github.com/topsecretagent008/workplace-app" />
+                <GithubIcon link="https://github.com/lendon1114/workplace-app" />
                 <a href="" target={"_blank"} rel="noreferrer">
                   <ExternalLink
                     url={"https://meetevoko.com/products/workplace-app/"}
@@ -1935,7 +1935,7 @@ export default function SomethingIveBuilt() {
                 <span className="pr-4 z-10">JavaScript</span>
               </ul>
               <div className="z-10 flex fle-row space-x-5 ">
-                <GithubIcon link="https://github.com/topsecretagent008/difiaba" />
+                <GithubIcon link="https://github.com/lendon1114/difiaba" />
                 <a href="" target={"_blank"} rel="noreferrer">
                   <ExternalLink
                     url={"https://wineeventsgreece.com/"}

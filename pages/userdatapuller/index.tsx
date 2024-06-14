@@ -303,7 +303,7 @@ export default function Page() {
         <About />
       </div>
       <Footer
-        githubUrl="https://github.com/topsecretagent008"
+        githubUrl="https://github.com/lendon1114"
         hideSocialsInDesktop={false}
       />
     </>

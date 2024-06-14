@@ -13,6 +13,7 @@ import AppContext from "../components/AppContextFolder/AppContext";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import Head from "next/head";
+// import Script from "next/script";
 
 declare global {
   interface Window {
